@@ -15,13 +15,19 @@ in this way.
 [TODO] Once we're all done, we write the JSON file as an OPML file.
 """
 
+import argparse
 import json
+import sys
 import urllib
 
 from BeautifulSoup import BeautifulSoup
 
 import utfcsv
 
+parser = argparse.ArgumentParser()
+parser.add_argument('-x', '--lookup-feed-urls', dest='lookup', default=None,
+                    help="Reach out to the Internet to find feed URLs")
+args = parser.parse_args(sys.argv[1:])
 
 # Load our local OSR blogs cache
 with open('osr.json', 'r') as osr_json:
@@ -60,38 +66,65 @@ with open('osr.csv') as csvfile:
             'theme': theme
         }
 
-# Find the RSS feed for the blogs that are missing them
-for url, blog_meta_data in osr_blogs.iteritems():
-    if blog_meta_data['xmlUrl']:
-        continue
-
-    # Fetch the blogs home page
-    print 'Processing {0}'.format(url)
-    try:
-        data = urllib.urlopen(url)
-        if data.getcode() != 200:
-            print '{} - Skipped {}'.format(data.getcode(), url)
+if args.lookup:
+    # Find the RSS feed for the blogs that are missing them
+    for url, blog_meta_data in osr_blogs.iteritems():
+        if blog_meta_data['xmlUrl']:
             continue
-    except IOError as e:
-        print '{} - Skipped {}'.format(e, url)
 
-    # Parse the page and look for alternate link elements
-    try:
-        soup = BeautifulSoup(data)
-        alt = soup.find('link', rel="alternate", type="application/rss+xml")
-    except:
-        print 'Failed to parse {}'.format(url)
-        continue
+        # Fetch the blogs home page
+        print 'Processing {0}'.format(url)
+        try:
+            data = urllib.urlopen(url)
+            if data.getcode() != 200:
+                print '{} - Skipped {}'.format(data.getcode(), url)
+                continue
+        except IOError as e:
+            print '{} - Skipped {}'.format(e, url)
 
-    # The feed URL is stored in the href attribute
-    if alt is not None:
-        blog_meta_data['xmlUrl'] = alt['href']
-    else:
-        print 'Failed to find feed tag'
+        # Parse the page and look for alternate link elements
+        try:
+            soup = BeautifulSoup(data)
+            alt = soup.find('link', rel="alternate", type="application/rss+xml")
+        except:
+            print 'Failed to parse {}'.format(url)
+            continue
 
-    # Update the file as we find new URLs
-    with open('osr.json', 'w') as osr_json:
-        json.dump(osr_blogs, osr_json, indent=2)
+        # The feed URL is stored in the href attribute
+        if alt is not None:
+            blog_meta_data['xmlUrl'] = alt['href']
+        else:
+            print 'Failed to find feed tag'
+
+        # Update the file as we find new URLs
+        with open('osr.json', 'w') as osr_json:
+            json.dump(osr_blogs, osr_json, indent=2)
+
+# Write an OPML file!
+
+OPML_HEADER = """
+<opml version="2.0">
+  <body>
+    <outline text="Subscriptions" title="Subscriptions">
+"""
+
+def outline(url, blog_meta_data):
+    """ Print out the outline element of an OMPL file. """
+    blog_meta_data['htmlUrl'] = url
+    return u"      <outline xmlUrl='{xmlUrl}' htmlUrl='{htmlUrl}' title='{name}' author='{author}' />".format(**blog_meta_data)
+
+OPML_OUTLINES = '\n'.join([outline(url, blog_meta_data) for url, blog_meta_data in osr_blogs.iteritems()])
+
+OPML_FOOTER = """
+    </outline>
+  </body>
+</opml>
+"""
+
+opml = OPML_HEADER + OPML_OUTLINES + OPML_FOOTER
+
+with open('osr.opml', 'w') as osr_opml:
+    osr_opml.write(opml.encode('utf8'))
 
 
 
