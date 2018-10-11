@@ -174,13 +174,6 @@
     "system": "The Cthulhu Hack", 
     "name": "Just Crunch"
   }, 
-  "https://rpgcharacters.wordpress.com/": {
-    "xmlUrl": "https://rpgcharacters.wordpress.com/feed/", 
-    "theme": "Primarily maps with adventure hooks and backgrounds, but zines, house rules, actual play reports, etc.", 
-    "system": "B/X / LL / AEC / Vampire / DCC / more", 
-    "name": "Dyson's Dodecahedron", 
-    "author": "Dyson Logos"
-  }, 
   "https://thegrandtapestry.blogspot.com/": {
     "xmlUrl": "https://thegrandtapestry.blogspot.com/feeds/posts/default?alt=rss", 
     "theme": "Mostly topical regarding the setting and system, rare diversions", 
@@ -398,7 +391,7 @@
     "system": "Whitebox", 
     "name": "Halfling's Luck"
   }, 
-  "Http://dungeonspossums.blogspot.com": {
+  "http://dungeonspossums.blogspot.com": {
     "xmlUrl": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss", 
     "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
     "author": "Dungeons & Possums", 
@@ -538,12 +531,12 @@
     "system": "OSR/DIY D&D/LARA", 
     "name": "The Goatman's Goblet"
   }, 
-  "https://reddicediaries.com": {
-    "xmlUrl": "", 
-    "theme": "Random tables, RPG ramblings and other such stuff", 
-    "author": "John Large", 
-    "system": "Numerous systems", 
-    "name": "Red Dice Diaries"
+  "https://rpgcharacters.wordpress.com/": {
+    "xmlUrl": "https://rpgcharacters.wordpress.com/feed/", 
+    "theme": "Primarily maps with adventure hooks and backgrounds, but zines, house rules, actual play reports, etc.", 
+    "system": "B/X / LL / AEC / Vampire / DCC / more", 
+    "name": "Dyson's Dodecahedron", 
+    "author": "Dyson Logos"
   }, 
   "http://cosmicheroes.space/blog/": {
     "xmlUrl": "http://cosmicheroes.space/blog/index.php/feed/", 
@@ -672,7 +665,7 @@
     "name": "What Would Conan Do"
   }, 
   "http://www.kjd-imc.org/": {
-    "xmlUrl": "", 
+    "xmlUrl": "http://www.kjd-imc.org/feed/", 
     "theme": "philosphy and theory of adventure and game design", 
     "author": "Keith Davies", 
     "system": "Fantasy AGE", 
@@ -803,13 +796,6 @@
     "author": "Timothy Paul Schaefer", 
     "system": "Gamma World, various", 
     "name": "Mutants & Magic"
-  }, 
-  "http://URL": {
-    "xmlUrl": "", 
-    "theme": "Theme", 
-    "author": "Blog Owner", 
-    "system": "Home System", 
-    "name": "Blog Name"
   }, 
   "http://blog.d4caltrops.com/": {
     "xmlUrl": "http://blog.d4caltrops.com/feeds/posts/default?alt=rss", 
@@ -944,12 +930,12 @@
     "system": "OSR", 
     "name": "The Borderlands"
   }, 
-  "https://saturdaynightsandbox.blogspot.com/": {
-    "xmlUrl": "https://saturdaynightsandbox.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "", 
-    "author": "B.J. Johnson", 
-    "system": "Creepy Crawl, Thousand Year Sandglass", 
-    "name": "Saturday Night Sandbox"
+  "https://reddicediaries.com": {
+    "xmlUrl": "", 
+    "theme": "Random tables, RPG ramblings and other such stuff", 
+    "author": "John Large", 
+    "system": "Numerous systems", 
+    "name": "Red Dice Diaries"
   }, 
   "http://swordplusone.blogspot.com": {
     "xmlUrl": "http://swordplusone.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1049,12 +1035,12 @@
     "system": "AD&D 1e, S&W, OSR generally", 
     "name": "Dreams of Mythic Fantasy"
   }, 
-  "https://tenfootpolemic.blogspot.com/": {
-    "xmlUrl": "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "House rules, classes, mechanics.", 
-    "author": "James Young", 
-    "system": "Heavily Modified LotFP", 
-    "name": "Ten Foot Polemic"
+  "https://saturdaynightsandbox.blogspot.com/": {
+    "xmlUrl": "https://saturdaynightsandbox.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "B.J. Johnson", 
+    "system": "Creepy Crawl, Thousand Year Sandglass", 
+    "name": "Saturday Night Sandbox"
   }, 
   "http://necrotic-gnome-productions.blogspot.com": {
     "xmlUrl": "http://necrotic-gnome-productions.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1077,12 +1063,12 @@
     "system": "D&D, Call of Cthulhu, various", 
     "name": "Thought Eater"
   }, 
-  "http://Http://dungeonspossums.blogspot.com": {
-    "xmlUrl": "", 
-    "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
-    "author": "Dungeons & Possums", 
-    "system": "B/X, AD&D 1e for the most part", 
-    "name": "Dungeons & Possums"
+  "https://arsmagisterii.blogspot.com/": {
+    "xmlUrl": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Homebrew and heavy metal", 
+    "author": "Magus", 
+    "system": "Homebrew", 
+    "name": "Ars Magisterii"
   }, 
   "https://tarsostheorem.blogspot.com/": {
     "xmlUrl": "https://tarsostheorem.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1111,6 +1097,13 @@
     "author": "David Schirduan", 
     "system": "Knave / Into the Odd", 
     "name": "Technical Grimoire"
+  }, 
+  "Http://dungeonspossums.blogspot.com": {
+    "xmlUrl": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
+    "system": "B/X, AD&D 1e for the most part", 
+    "name": "Dungeons & Possums", 
+    "author": "Dungeons & Possums"
   }, 
   "http://terriblesorcery.blogspot.ca": {
     "xmlUrl": "http://terriblesorcery.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1252,12 +1245,12 @@
     "system": "LotFP, Traveller, CoC, Risus", 
     "name": "Richard's Dystopian Pokeverse"
   }, 
-  "https://arsmagisterii.blogspot.com/": {
-    "xmlUrl": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "Homebrew and heavy metal", 
-    "author": "Magus", 
-    "system": "Homebrew", 
-    "name": "Ars Magisterii"
+  "https://tenfootpolemic.blogspot.com/": {
+    "xmlUrl": "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "House rules, classes, mechanics.", 
+    "author": "James Young", 
+    "system": "Heavily Modified LotFP", 
+    "name": "Ten Foot Polemic"
   }, 
   "https://triplesuns.blogspot.com/": {
     "xmlUrl": "https://triplesuns.blogspot.com/feeds/posts/default?alt=rss", 
