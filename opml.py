@@ -40,6 +40,8 @@ with open('osr.json', 'r') as osr_json:
     except ValueError:
         osr_blogs = {}
 
+new_blogs = []
+
 # Load the OSR blogs CSV file previously pulled from Google Docs
 with open('osr.csv') as csvfile:
     # skip first line of the file, the header
@@ -49,12 +51,13 @@ with open('osr.csv') as csvfile:
         # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
         url, title, author, system, theme = [col.strip() for col in row]
 
-        # Empty row, skip it
-        if not url:
+        # Missing URL and Title (or empty row) so skip
+        if not url or not title:
             continue
 
-        # Clean up URLs missing a scheme
-        if not url.lower().startswith('http'):
+        # Clean up URLs
+        url = url.lower()
+        if not url.startswith('http'):
             url = 'http://' + url
 
         # We've already processed this URL
@@ -70,6 +73,14 @@ with open('osr.csv') as csvfile:
             'theme': theme
         }
 
+        new_blogs.append((author, title, url))
+
+print u"{0} new blogs:".format(len(new_blogs))
+for author, title, url in new_blogs:
+    print u"- {0} by {1} ({2})".format(title, author, url)
+
+bad_blogs = []
+
 if args.lookup:
     # Find the RSS feed for the blogs that are missing them
     for url, blog_meta_data in osr_blogs.iteritems():
@@ -81,31 +92,36 @@ if args.lookup:
         try:
             data = urllib.urlopen(url)
             if data.getcode() != 200:
-                print '{} - Skipped {}'.format(data.getcode(), url)
+                bad_blogs.append((url, "Error fetching feed."))
                 continue
         except IOError as e:
-            print '{} - Skipped {}'.format(e, url)
+            bad_blogs.append((url, "Error fetching feed."))
+            continue
 
         # Parse the page and look for alternate link elements
         try:
             soup = BeautifulSoup(data)
             alt = soup.find('link', rel="alternate", type="application/rss+xml")
         except:
-            print 'Failed to parse {}'.format(url)
+            bad_blogs.append((url, "Failed to parse HTML."))
             continue
 
         # The feed URL is stored in the href attribute
         if alt is not None:
             blog_meta_data['xmlUrl'] = alt['href']
         else:
-            print 'Failed to find feed tag'
+            bad_blogs.append((url, "Failed to find feed tag."))
+            continue
 
         # Update the file as we find new URLs
         with open('osr.json', 'w') as osr_json:
             json.dump(osr_blogs, osr_json, indent=2)
 
-# Write an OPML file!
+print u"{0} blogs with errors:".format(len(bad_blogs))
+for url, error in bad_blogs:
+    print u"- {0} ({1})".format(url, error)
 
+# Write an OPML file!
 opml = etree.Element('opml', version="2.0")
 body = etree.SubElement(opml, 'body')
 outline = etree.SubElement(body, 'outline', title="OSR Blogs")
