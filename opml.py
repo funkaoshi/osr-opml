@@ -16,6 +16,7 @@ in this way.
 """
 
 import argparse
+import collections
 import json
 from lxml import etree
 import sys
@@ -35,7 +36,7 @@ args = parser.parse_args(sys.argv[1:])
 # Load our local OSR blogs cache
 with open('osr.json', 'r') as osr_json:
     try:
-        osr_blogs = json.loads(osr_json.read())
+        osr_blogs = json.loads(osr_json.read(), object_pairs_hook=collections.OrderedDict)
     except ValueError:
         osr_blogs = {}
 

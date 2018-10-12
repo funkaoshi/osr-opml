@@ -693,7 +693,7 @@
     "title": "What Would Conan Do"
   }, 
   "http://www.kjd-imc.org/": {
-    "xmlUrl": "", 
+    "xmlUrl": "http://www.kjd-imc.org/feed/", 
     "theme": "philosphy and theory of adventure and game design", 
     "author": "Keith Davies", 
     "system": "Fantasy AGE", 
@@ -1412,5 +1412,12 @@
     "author": "Lichtung", 
     "system": "b/x, LotFP, D&D 5E,", 
     "title": "The Circular Ruins"
+  }, 
+  "http://towerofthearchmage.blogspot.com/": {
+    "xmlUrl": "http://towerofthearchmage.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "RC Megadungeon actual play, homebrew stuff, 5e, mini painting", 
+    "author": "David Brawley", 
+    "system": "Rules Cyclopedia", 
+    "title": "Tower of the Archmage"
   }
 }
