@@ -15,13 +15,22 @@ in this way.
 [TODO] Once we're all done, we write the JSON file as an OPML file.
 """
 
+import argparse
 import json
+from lxml import etree
+import sys
 import urllib
 
 from BeautifulSoup import BeautifulSoup
 
 import utfcsv
 
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '-l', '--lookup-feed-urls', dest='lookup', action='store_true',
+    help="Reach out to the Internet to find feed URLs"
+)
+args = parser.parse_args(sys.argv[1:])
 
 # Load our local OSR blogs cache
 with open('osr.json', 'r') as osr_json:
@@ -37,7 +46,7 @@ with open('osr.csv') as csvfile:
 
     for row in utfcsv.unicode_csv_reader(csvfile):
         # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
-        url, name, author, system, theme = [col.strip() for col in row]
+        url, title, author, system, theme = [col.strip() for col in row]
 
         # Empty row, skip it
         if not url:
@@ -54,44 +63,54 @@ with open('osr.csv') as csvfile:
         # We have a new blog, add it to our cache
         osr_blogs[url] = {
             'xmlUrl': '',
-            'name': name,
+            'title': title,
             'author': author,
             'system': system,
             'theme': theme
         }
 
-# Find the RSS feed for the blogs that are missing them
-for url, blog_meta_data in osr_blogs.iteritems():
-    if blog_meta_data['xmlUrl']:
-        continue
-
-    # Fetch the blogs home page
-    print 'Processing {0}'.format(url)
-    try:
-        data = urllib.urlopen(url)
-        if data.getcode() != 200:
-            print '{} - Skipped {}'.format(data.getcode(), url)
+if args.lookup:
+    # Find the RSS feed for the blogs that are missing them
+    for url, blog_meta_data in osr_blogs.iteritems():
+        if blog_meta_data['xmlUrl']:
             continue
-    except IOError as e:
-        print '{} - Skipped {}'.format(e, url)
 
-    # Parse the page and look for alternate link elements
-    try:
-        soup = BeautifulSoup(data)
-        alt = soup.find('link', rel="alternate", type="application/rss+xml")
-    except:
-        print 'Failed to parse {}'.format(url)
-        continue
+        # Fetch the blogs home page
+        print 'Processing {0}'.format(url)
+        try:
+            data = urllib.urlopen(url)
+            if data.getcode() != 200:
+                print '{} - Skipped {}'.format(data.getcode(), url)
+                continue
+        except IOError as e:
+            print '{} - Skipped {}'.format(e, url)
 
-    # The feed URL is stored in the href attribute
-    if alt is not None:
-        blog_meta_data['xmlUrl'] = alt['href']
-    else:
-        print 'Failed to find feed tag'
+        # Parse the page and look for alternate link elements
+        try:
+            soup = BeautifulSoup(data)
+            alt = soup.find('link', rel="alternate", type="application/rss+xml")
+        except:
+            print 'Failed to parse {}'.format(url)
+            continue
 
-    # Update the file as we find new URLs
-    with open('osr.json', 'w') as osr_json:
-        json.dump(osr_blogs, osr_json, indent=2)
+        # The feed URL is stored in the href attribute
+        if alt is not None:
+            blog_meta_data['xmlUrl'] = alt['href']
+        else:
+            print 'Failed to find feed tag'
 
+        # Update the file as we find new URLs
+        with open('osr.json', 'w') as osr_json:
+            json.dump(osr_blogs, osr_json, indent=2)
 
+# Write an OPML file!
 
+opml = etree.Element('opml', version="2.0")
+body = etree.SubElement(opml, 'body')
+outline = etree.SubElement(body, 'outline', title="OSR Blogs")
+for url, blog_meta_data in osr_blogs.iteritems():
+    blog_meta_data['htmlUrl'] = url
+    etree.SubElement(outline, 'outline', **blog_meta_data)
+
+with open('osr.opml', 'w') as osr_opml:
+    etree.ElementTree(opml).write(osr_opml, pretty_print=True)
