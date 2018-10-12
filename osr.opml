@@ -204,6 +204,19 @@
       <outline author="Simon Forster" htmlUrl="https://www.theskyfullofdust.co.uk" system="ACKs, The Black Hack, my own" theme="mostly maps, but maybe more stuff now too" title="...and the sky full of dust" xmlUrl=""/>
       <outline author="Lichtung" htmlUrl="http://thecircularuins.blogspot.com/" system="b/x, LotFP, D&amp;D 5E," theme="Spells, tables, classes, Hacks, Monsters, Design, Settings" title="The Circular Ruins" xmlUrl="http://thecircularuins.blogspot.com/feeds/posts/default?alt=rss"/>
       <outline author="David Brawley" htmlUrl="http://towerofthearchmage.blogspot.com/" system="Rules Cyclopedia" theme="RC Megadungeon actual play, homebrew stuff, 5e, mini painting" title="Tower of the Archmage" xmlUrl="http://towerofthearchmage.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Luther Gutekunst" htmlUrl="https://archons-court.blogspot.com/" system="" theme="Sci-fi stuff, focused on gameability instead of theory" title="Archon's Court" xmlUrl="https://archons-court.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Dungeons &amp; Possums" htmlUrl="http://dungeonspossums.blogspot.com" system="B/X, AD&amp;D 1e for the most part" theme="Old school thoughts, ideas, and reviews. Also I draw possums." title="Dungeons &amp; Possums" xmlUrl="https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Jeremy Hart" htmlUrl="http://jeremyhartillos.blogspot.com/" system="muh... art stuff... 5e monsters" theme="" title="Jeremy Hart Illos" xmlUrl="http://jeremyhartillos.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Beloch Shrike" htmlUrl="http://www.paperspencils.com" system="OSR" theme="" title="Papers &amp; Pencils" xmlUrl="http://www.paperspencils.com/feed/"/>
+      <outline author="Charlie Mason" htmlUrl="http://whiteboxgame.blogspot.com/" system="White Box, OD&amp;D" theme="White Box:" title="White Box Game" xmlUrl="http://whiteboxgame.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Perttu Vedenoja" htmlUrl="https://dieuncast.wordpress.com" system="DIY / something resembling BX or LotFP / &quot;what is tentatively called GROT&quot;" theme="Kinda sparse at the moment, nerd ramblings and random advancement classes." title="Die Uncast" xmlUrl="https://dieuncast.wordpress.com/feed/"/>
+      <outline author="Harry de Vries" htmlUrl="http://www.hdvrpg.tumblr.com" system="DIY DND" theme="New but think of it as one big setting book" title="HDVRPG" xmlUrl="https://hdvrpg.tumblr.com/rss"/>
+      <outline author="Greg Gorgonmilk" htmlUrl="http://www.ggmlk.blogspot.com" system="DND" theme="Useable snippets of rules/flavor/fiction" title="Gorgonmilk" xmlUrl="http://ggmlk.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="John" htmlUrl="https://wanderinggamist.blogspot.com/" system="ACKS, Traveller" theme="Sandboxing, Warfare" title="The Wandering Gamist" xmlUrl="https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Vincent" htmlUrl="http://theevildm.com" system="AD&amp;D, FASERIP, DC Heroes" theme="OSR Related" title="The Evil DM Blog" xmlUrl="http://www.theevildm.com/feeds/posts/default?alt=rss"/>
+      <outline author="Colin Le Sueur" htmlUrl="https://osr.colinlesueur.com/" system="OSR, Pathfinder, 5e" theme="Random tables, monsters, treasure, traps" title="By Odin's Beard" xmlUrl="https://osr.colinlesueur.com/feed/"/>
+      <outline author="Eneko Menica" htmlUrl="http://eltomocarmesi.blogspot.com/" system="Vieja Escuela, OSR" theme="Maps,one page dungeon and OSR" title="El tomo carmes&#237;" xmlUrl="http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Evey Lockhart" htmlUrl="https://violentmediarpg.blogspot.com" system="DIY D&amp;D, LotFP, etc." theme="weird violent sadness" title="Violent Media" xmlUrl="https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss"/>
     </outline>
   </body>
 </opml>

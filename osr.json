@@ -1419,5 +1419,96 @@
     "author": "David Brawley", 
     "system": "Rules Cyclopedia", 
     "title": "Tower of the Archmage"
+  }, 
+  "https://archons-court.blogspot.com/": {
+    "xmlUrl": "https://archons-court.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Sci-fi stuff, focused on gameability instead of theory", 
+    "author": "Luther Gutekunst", 
+    "system": "", 
+    "title": "Archon's Court"
+  }, 
+  "http://dungeonspossums.blogspot.com": {
+    "xmlUrl": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
+    "author": "Dungeons & Possums", 
+    "system": "B/X, AD&D 1e for the most part", 
+    "title": "Dungeons & Possums"
+  }, 
+  "http://jeremyhartillos.blogspot.com/": {
+    "xmlUrl": "http://jeremyhartillos.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Jeremy Hart", 
+    "system": "muh... art stuff... 5e monsters", 
+    "title": "Jeremy Hart Illos"
+  }, 
+  "http://www.paperspencils.com": {
+    "xmlUrl": "http://www.paperspencils.com/feed/", 
+    "theme": "", 
+    "author": "Beloch Shrike", 
+    "system": "OSR", 
+    "title": "Papers & Pencils"
+  }, 
+  "http://whiteboxgame.blogspot.com/": {
+    "xmlUrl": "http://whiteboxgame.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "White Box:", 
+    "author": "Charlie Mason", 
+    "system": "White Box, OD&D", 
+    "title": "White Box Game"
+  }, 
+  "https://dieuncast.wordpress.com": {
+    "xmlUrl": "https://dieuncast.wordpress.com/feed/", 
+    "theme": "Kinda sparse at the moment, nerd ramblings and random advancement classes.", 
+    "author": "Perttu Vedenoja", 
+    "system": "DIY / something resembling BX or LotFP / \"what is tentatively called GROT\"", 
+    "title": "Die Uncast"
+  }, 
+  "http://www.hdvrpg.tumblr.com": {
+    "xmlUrl": "https://hdvrpg.tumblr.com/rss", 
+    "theme": "New but think of it as one big setting book", 
+    "author": "Harry de Vries", 
+    "system": "DIY DND", 
+    "title": "HDVRPG"
+  }, 
+  "http://www.ggmlk.blogspot.com": {
+    "xmlUrl": "http://ggmlk.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Useable snippets of rules/flavor/fiction", 
+    "author": "Greg Gorgonmilk", 
+    "system": "DND", 
+    "title": "Gorgonmilk"
+  }, 
+  "https://wanderinggamist.blogspot.com/": {
+    "xmlUrl": "https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Sandboxing, Warfare", 
+    "author": "John", 
+    "system": "ACKS, Traveller", 
+    "title": "The Wandering Gamist"
+  }, 
+  "http://theevildm.com": {
+    "xmlUrl": "http://www.theevildm.com/feeds/posts/default?alt=rss", 
+    "theme": "OSR Related", 
+    "author": "Vincent", 
+    "system": "AD&D, FASERIP, DC Heroes", 
+    "title": "The Evil DM Blog"
+  }, 
+  "https://osr.colinlesueur.com/": {
+    "xmlUrl": "https://osr.colinlesueur.com/feed/", 
+    "theme": "Random tables, monsters, treasure, traps", 
+    "author": "Colin Le Sueur", 
+    "system": "OSR, Pathfinder, 5e", 
+    "title": "By Odin's Beard"
+  }, 
+  "http://eltomocarmesi.blogspot.com/": {
+    "xmlUrl": "http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Maps,one page dungeon and OSR", 
+    "author": "Eneko Menica", 
+    "system": "Vieja Escuela, OSR", 
+    "title": "El tomo carmes\u00ed"
+  }, 
+  "https://violentmediarpg.blogspot.com": {
+    "xmlUrl": "https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "weird violent sadness", 
+    "author": "Evey Lockhart", 
+    "system": "DIY D&D, LotFP, etc.", 
+    "title": "Violent Media"
   }
 }
