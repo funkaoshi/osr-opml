@@ -174,13 +174,6 @@
     "system": "The Cthulhu Hack", 
     "name": "Just Crunch"
   }, 
-  "https://rpgcharacters.wordpress.com/": {
-    "xmlUrl": "https://rpgcharacters.wordpress.com/feed/", 
-    "theme": "Primarily maps with adventure hooks and backgrounds, but zines, house rules, actual play reports, etc.", 
-    "system": "B/X / LL / AEC / Vampire / DCC / more", 
-    "name": "Dyson's Dodecahedron", 
-    "author": "Dyson Logos"
-  }, 
   "https://thegrandtapestry.blogspot.com/": {
     "xmlUrl": "https://thegrandtapestry.blogspot.com/feeds/posts/default?alt=rss", 
     "theme": "Mostly topical regarding the setting and system, rare diversions", 
@@ -243,6 +236,13 @@
     "author": "Boris Stremlin", 
     "system": "5e (mostly)", 
     "name": "Bardiches and Bathhouses"
+  }, 
+  "http://nerdwerds.blogspot.com": {
+    "xmlUrl": "https://nerdwerds.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Patrick Henry Downs", 
+    "system": "LotFP, Black Hack, PbtA", 
+    "name": "Nerdwerds"
   }, 
   "http://chaudronchromatique.blogspot.com/": {
     "xmlUrl": "http://chaudronchromatique.blogspot.com/feeds/posts/default?alt=rss", 
@@ -398,7 +398,14 @@
     "system": "Whitebox", 
     "name": "Halfling's Luck"
   }, 
-  "Http://dungeonspossums.blogspot.com": {
+  "http://goblinstomper.blogspot.com": {
+    "xmlUrl": "http://goblinstomper.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "OSR content and editorial", 
+    "author": "Howard Beleiff", 
+    "system": "b/x, AD&D1E, Labyrinth Lord, WFRP1e", 
+    "name": "Goblin Stomper"
+  }, 
+  "http://dungeonspossums.blogspot.com": {
     "xmlUrl": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss", 
     "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
     "author": "Dungeons & Possums", 
@@ -433,12 +440,12 @@
     "system": "DIY D&D, 5e, Call of Cthulhu, new games played in an old school way", 
     "name": "Kaijuville"
   }, 
-  "http://save.vs.totalpartykill.ca/": {
-    "xmlUrl": "/rss.xml", 
-    "theme": "Reviews, Little Web Apps, 40K junk, Carcosa, etc", 
-    "author": "Ramanan", 
-    "system": "OD&D, LotFP, Warhammer 40K", 
-    "name": "Save vs. Total Party Kill"
+  "https://thealexandrian.net": {
+    "xmlUrl": "https://thealexandrian.net/feed", 
+    "theme": "Deep dives into viariaty of OSR and RPG topics", 
+    "author": "Justin Alexdrain", 
+    "system": "Legends & Labyrinths", 
+    "name": "The Alexandrian"
   }, 
   "https://followmeanddie.com/": {
     "xmlUrl": "https://followmeanddie.com/feed/", 
@@ -538,12 +545,12 @@
     "system": "OSR/DIY D&D/LARA", 
     "name": "The Goatman's Goblet"
   }, 
-  "https://reddicediaries.com": {
-    "xmlUrl": "", 
-    "theme": "Random tables, RPG ramblings and other such stuff", 
-    "author": "John Large", 
-    "system": "Numerous systems", 
-    "name": "Red Dice Diaries"
+  "https://rpgcharacters.wordpress.com/": {
+    "xmlUrl": "https://rpgcharacters.wordpress.com/feed/", 
+    "theme": "Primarily maps with adventure hooks and backgrounds, but zines, house rules, actual play reports, etc.", 
+    "system": "B/X / LL / AEC / Vampire / DCC / more", 
+    "name": "Dyson's Dodecahedron", 
+    "author": "Dyson Logos"
   }, 
   "http://cosmicheroes.space/blog/": {
     "xmlUrl": "http://cosmicheroes.space/blog/index.php/feed/", 
@@ -573,12 +580,12 @@
     "system": "Engines & Empires, Retro Phaze", 
     "name": "Playing Dice with the Universe"
   }, 
-  "https://thealexandrian.net": {
-    "xmlUrl": "https://thealexandrian.net/feed", 
-    "theme": "Deep dives into viariaty of OSR and RPG topics", 
-    "author": "Justin Alexdrain", 
-    "system": "Legends & Labyrinths", 
-    "name": "The Alexandrian"
+  "http://save.vs.totalpartykill.ca/": {
+    "xmlUrl": "/rss.xml", 
+    "theme": "Reviews, Little Web Apps, 40K junk, Carcosa, etc", 
+    "author": "Ramanan", 
+    "system": "OD&D, LotFP, Warhammer 40K", 
+    "name": "Save vs. Total Party Kill"
   }, 
   "http://zenopusarchives.blogspot.com": {
     "xmlUrl": "http://zenopusarchives.blogspot.com/feeds/posts/default?alt=rss", 
@@ -593,6 +600,13 @@
     "author": "Skerples", 
     "system": "GLOG", 
     "name": "Coins and Scrolls"
+  }, 
+  "http://antlerrr.blogspot.com": {
+    "xmlUrl": "http://antlerrr.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "game content of varying quality", 
+    "author": "Luke Gearing", 
+    "system": "LotFP, WFRP", 
+    "name": "ANT-LERRR"
   }, 
   "http://www.deepsheep.com": {
     "xmlUrl": "https://www.deepsheep.com/feeds/posts/default?alt=rss", 
@@ -672,7 +686,7 @@
     "name": "What Would Conan Do"
   }, 
   "http://www.kjd-imc.org/": {
-    "xmlUrl": "", 
+    "xmlUrl": "http://www.kjd-imc.org/feed/", 
     "theme": "philosphy and theory of adventure and game design", 
     "author": "Keith Davies", 
     "system": "Fantasy AGE", 
@@ -706,12 +720,19 @@
     "system": "OSR System Neutral", 
     "name": "Shoalmont Games"
   }, 
-  "http://questingblog.com/": {
-    "xmlUrl": "http://questingblog.com/feed/", 
-    "theme": "Game design, occasional worldbuilding", 
-    "author": "Ben Milton (Questing Beast)", 
-    "system": "Knave, Maze Rats, LotFP, Into the Odd, etc", 
-    "name": "Questing Blog"
+  "http://wondrousimaginings.blogspot.com/": {
+    "xmlUrl": "http://wondrousimaginings.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Thought, ideas, things I create to share", 
+    "author": "Joethelawyer", 
+    "system": "AD&D, OSRIC, LOTFP, 5e", 
+    "name": "Wondrous Imaginings"
+  }, 
+  "https://reddicediaries.com": {
+    "xmlUrl": "", 
+    "theme": "Random tables, RPG ramblings and other such stuff", 
+    "author": "John Large", 
+    "system": "Numerous systems", 
+    "name": "Red Dice Diaries"
   }, 
   "http://oldskulling.blogspot.com/": {
     "xmlUrl": "http://oldskulling.blogspot.com/feeds/posts/default?alt=rss", 
@@ -804,12 +825,12 @@
     "system": "Gamma World, various", 
     "name": "Mutants & Magic"
   }, 
-  "http://URL": {
-    "xmlUrl": "", 
-    "theme": "Theme", 
-    "author": "Blog Owner", 
-    "system": "Home System", 
-    "name": "Blog Name"
+  "http://dismastersden.blogspot.com": {
+    "xmlUrl": "https://dismastersden.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "OSR, gaming ideas, random tables, a few reviews, sometimes in Italian", 
+    "author": "Dismaster FraNe", 
+    "system": "OSR, LotFP, Traveller, Risus and more", 
+    "name": "Dismaster's Den of Unfinished Thoughts"
   }, 
   "http://blog.d4caltrops.com/": {
     "xmlUrl": "http://blog.d4caltrops.com/feeds/posts/default?alt=rss", 
@@ -853,6 +874,13 @@
     "system": "OSR, B/X, 5e (also Dark Fantasy Basic)", 
     "name": "Methods & Madness"
   }, 
+  "https://www.indygaming.com/": {
+    "xmlUrl": "https://www.indygaming.com/feed/", 
+    "theme": "To share interesting stuff", 
+    "author": "Kevin \"The\" Swartz", 
+    "system": "DCC RPG, AS&SH, LotFP, AD&D", 
+    "name": "Indy Gaming"
+  }, 
   "https://oldscouserroleplaying.com/": {
     "xmlUrl": "https://oldscouserroleplaying.com/feed/", 
     "theme": "The RPG related mutterings of an old school roleplayer", 
@@ -880,6 +908,20 @@
     "author": "Christian Buggedei", 
     "system": "all over the place", 
     "name": "Orkpiraten"
+  }, 
+  "http://jonwake.blogspot.com/": {
+    "xmlUrl": "http://jonwake.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "tools and concepts for running off-model sessions", 
+    "author": "Jon Munger", 
+    "system": "System Agnostic, V5, LotFP, 5e", 
+    "name": "Turpentine Mouthwash"
+  }, 
+  "https://papierundspiele.com/": {
+    "xmlUrl": "https://papierundspiele.com/feed/", 
+    "theme": "game systems, actual play reports (part German, part English)", 
+    "author": "Andreas Habicher", 
+    "system": "System Agnostic", 
+    "name": "Papier und Spiele"
   }, 
   "https://ruinsoffallenempires.blogspot.com": {
     "xmlUrl": "https://ruinsoffallenempires.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1021,6 +1063,13 @@
     "system": "OSR, B/X", 
     "name": "Hill Cantons"
   }, 
+  "https://then-what-happens.blogspot.com/": {
+    "xmlUrl": "https://then-what-happens.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Play reports, homebrew stuff, mob-vote comic adventures", 
+    "author": "Adam Stone", 
+    "system": "DCC, LotFP, Troika!", 
+    "name": "...and then what happens?"
+  }, 
   "http://www.greyhawkgrognard.com": {
     "xmlUrl": "http://www.greyhawkgrognard.com/feed/", 
     "theme": "World of Greyhawk, wargames, 1E-type games", 
@@ -1049,12 +1098,12 @@
     "system": "AD&D 1e, S&W, OSR generally", 
     "name": "Dreams of Mythic Fantasy"
   }, 
-  "https://tenfootpolemic.blogspot.com/": {
-    "xmlUrl": "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "House rules, classes, mechanics.", 
-    "author": "James Young", 
-    "system": "Heavily Modified LotFP", 
-    "name": "Ten Foot Polemic"
+  "https://talesfromgurgula.blogspot.com": {
+    "xmlUrl": "https://talesfromgurgula.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Homebrew setting, dumb stuff, free stuff", 
+    "author": "Giuliano Roverato", 
+    "system": "LotFP", 
+    "name": "Tales From Gurgula"
   }, 
   "http://necrotic-gnome-productions.blogspot.com": {
     "xmlUrl": "http://necrotic-gnome-productions.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1077,12 +1126,12 @@
     "system": "D&D, Call of Cthulhu, various", 
     "name": "Thought Eater"
   }, 
-  "http://Http://dungeonspossums.blogspot.com": {
-    "xmlUrl": "", 
-    "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
-    "author": "Dungeons & Possums", 
-    "system": "B/X, AD&D 1e for the most part", 
-    "name": "Dungeons & Possums"
+  "https://arsmagisterii.blogspot.com/": {
+    "xmlUrl": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Homebrew and heavy metal", 
+    "author": "Magus", 
+    "system": "Homebrew", 
+    "name": "Ars Magisterii"
   }, 
   "https://tarsostheorem.blogspot.com/": {
     "xmlUrl": "https://tarsostheorem.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1090,6 +1139,20 @@
     "author": "Saker Tarsos", 
     "system": "GLOG/Into the Odd", 
     "name": "Tarsos Theorem"
+  }, 
+  "http://valleyofbluesnails.blogspot.com/": {
+    "xmlUrl": "http://valleyofbluesnails.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Homebrew setting, awesome stuff (maybe defunct but still great archives)", 
+    "author": "Canecorpus", 
+    "system": "B/E d&d, 1st Ed.", 
+    "name": "Valley of Blue Snails"
+  }, 
+  "https://www.occultesque.com": {
+    "xmlUrl": "https://www.occultesque.com/feeds/posts/default?alt=rss", 
+    "theme": "game content, tables", 
+    "author": "Historian", 
+    "system": "", 
+    "name": "Occultesque"
   }, 
   "http://beyondfomalhaut.blogspot.com/": {
     "xmlUrl": "http://beyondfomalhaut.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1111,6 +1174,13 @@
     "author": "David Schirduan", 
     "system": "Knave / Into the Odd", 
     "name": "Technical Grimoire"
+  }, 
+  "Http://dungeonspossums.blogspot.com": {
+    "xmlUrl": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Old school thoughts, ideas, and reviews. Also I draw possums.", 
+    "author": "Dungeons & Possums", 
+    "system": "B/X, AD&D 1e for the most part", 
+    "name": "Dungeons & Possums"
   }, 
   "http://terriblesorcery.blogspot.ca": {
     "xmlUrl": "http://terriblesorcery.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1153,6 +1223,20 @@
     "author": "Slantio Pink", 
     "system": "LotFP, OSR, 5e", 
     "name": "Space Elves & Psychonauts"
+  }, 
+  "http://questingblog.com/": {
+    "xmlUrl": "http://questingblog.com/feed/", 
+    "theme": "Game design, occasional worldbuilding", 
+    "author": "Ben Milton (Questing Beast)", 
+    "system": "Knave, Maze Rats, LotFP, Into the Odd, etc", 
+    "name": "Questing Blog"
+  }, 
+  "https://knightsinthenorth.blog": {
+    "xmlUrl": "https://knightsinthenorth.blog/feed/", 
+    "theme": "DCC Content: Patrons, locations, classes, races, monsters, items, etc", 
+    "author": "Ari-Matti Piippo", 
+    "system": "DCC", 
+    "name": "Knights in the North"
   }, 
   "https://the-disoriented-ranger.blogspot.com/": {
     "xmlUrl": "https://the-disoriented-ranger.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1252,12 +1336,12 @@
     "system": "LotFP, Traveller, CoC, Risus", 
     "name": "Richard's Dystopian Pokeverse"
   }, 
-  "https://arsmagisterii.blogspot.com/": {
-    "xmlUrl": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "Homebrew and heavy metal", 
-    "author": "Magus", 
-    "system": "Homebrew", 
-    "name": "Ars Magisterii"
+  "https://tenfootpolemic.blogspot.com/": {
+    "xmlUrl": "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "House rules, classes, mechanics.", 
+    "author": "James Young", 
+    "system": "Heavily Modified LotFP", 
+    "name": "Ten Foot Polemic"
   }, 
   "https://triplesuns.blogspot.com/": {
     "xmlUrl": "https://triplesuns.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1286,6 +1370,13 @@
     "author": "Claytonian", 
     "system": "OSR", 
     "name": "Kill It With Fire"
+  }, 
+  "http://herror.es/": {
+    "xmlUrl": "http://herror.es/rss", 
+    "theme": "illustration, oneshots", 
+    "author": "Herror / Carlos A.", 
+    "system": "", 
+    "name": "herror grafico"
   }, 
   "https://worldoferadu.blogspot.com/": {
     "xmlUrl": "https://worldoferadu.blogspot.com/feeds/posts/default?alt=rss", 
@@ -1328,5 +1419,12 @@
     "author": "Simon Forster", 
     "system": "ACKs, The Black Hack, my own", 
     "name": "...and the sky full of dust"
+  }, 
+  "http://thecircularuins.blogspot.com/": {
+    "xmlUrl": "http://thecircularuins.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Spells, tables, classes, Hacks, Monsters, Design, Settings", 
+    "author": "Lichtung", 
+    "system": "b/x, LotFP, D&D 5E,", 
+    "name": "The Circular Ruins"
   }
 }

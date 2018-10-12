@@ -17,6 +17,7 @@ in this way.
 
 import argparse
 import json
+from lxml import etree
 import sys
 import urllib
 
@@ -25,8 +26,10 @@ from BeautifulSoup import BeautifulSoup
 import utfcsv
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-x', '--lookup-feed-urls', dest='lookup', default=None,
-                    help="Reach out to the Internet to find feed URLs")
+parser.add_argument(
+    '-l', '--lookup-feed-urls', dest='lookup', action='store_true',
+    help="Reach out to the Internet to find feed URLs"
+)
 args = parser.parse_args(sys.argv[1:])
 
 # Load our local OSR blogs cache
@@ -102,29 +105,12 @@ if args.lookup:
 
 # Write an OPML file!
 
-OPML_HEADER = """
-<opml version="2.0">
-  <body>
-    <outline text="Subscriptions" title="Subscriptions">
-"""
-
-def outline(url, blog_meta_data):
-    """ Print out the outline element of an OMPL file. """
+opml = etree.Element('opml', version="2.0")
+body = etree.SubElement(opml, 'body')
+outline = etree.SubElement(body, 'outline', title="OSR Blogs")
+for url, blog_meta_data in osr_blogs.iteritems():
     blog_meta_data['htmlUrl'] = url
-    return u"      <outline xmlUrl='{xmlUrl}' htmlUrl='{htmlUrl}' title='{name}' author='{author}' />".format(**blog_meta_data)
-
-OPML_OUTLINES = '\n'.join([outline(url, blog_meta_data) for url, blog_meta_data in osr_blogs.iteritems()])
-
-OPML_FOOTER = """
-    </outline>
-  </body>
-</opml>
-"""
-
-opml = OPML_HEADER + OPML_OUTLINES + OPML_FOOTER
+    etree.SubElement(outline, 'outline', **blog_meta_data)
 
 with open('osr.opml', 'w') as osr_opml:
-    osr_opml.write(opml.encode('utf8'))
-
-
-
+    etree.ElementTree(opml).write(osr_opml, pretty_print=True)
