@@ -100,18 +100,18 @@ def lookup_feed_urls(osr_blogs):
         try:
             data = urllib.urlopen(url)
             if data.getcode() != 200:
-                bad_blogs.append((url, "Error fetching feed."))
+                bad_blogs.append((url, "Error fetching feed: {}".format(data.getcode())))
                 continue
         except IOError as e:
-            bad_blogs.append((url, "Error fetching feed."))
+            bad_blogs.append((url, "Error fetching feed: {}".format(e)))
             continue
 
         # Parse the page and look for alternate link elements
         try:
             soup = BeautifulSoup(data)
             alt = soup.find('link', rel="alternate", type="application/rss+xml")
-        except:
-            bad_blogs.append((url, "Failed to parse HTML."))
+        except ValueError as e:
+            bad_blogs.append((url, "Failed to parse HTML: {}".format(e)))
             continue
 
         # The feed URL is stored in the href attribute
