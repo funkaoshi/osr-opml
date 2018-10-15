@@ -350,7 +350,7 @@
     "title": "The Lizard Man Diaries"
   }, 
   "http://failuretolerated.com": {
-    "xmlUrl": "/feed.rss", 
+    "xmlUrl": "http://failuretolerated.com/feed.rss", 
     "theme": "Game design, business development", 
     "author": "Sean McCoy", 
     "system": "Mothership RPG, Heist, Null.hack", 
@@ -588,7 +588,7 @@
     "title": "Playing Dice with the Universe"
   }, 
   "http://save.vs.totalpartykill.ca/": {
-    "xmlUrl": "/rss.xml", 
+    "xmlUrl": "http://save.vs.totalpartykill.ca/rss.xml", 
     "theme": "Reviews, Little Web Apps, 40K junk, Carcosa, etc", 
     "author": "Ramanan", 
     "system": "OD&D, LotFP, Warhammer 40K", 
@@ -1706,5 +1706,33 @@
     "author": "Ian Woolley", 
     "system": "B/X, Stars Without Number, King Arthur Pendragon", 
     "title": "Axes and Orcs"
+  }, 
+  "https://boggswood.blogspot.com/": {
+    "xmlUrl": "https://boggswood.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Historical interests, Pre-D&D, and applications to current gaming - all topics", 
+    "author": "Dan Boggs", 
+    "system": "OD&D, Champions of Zed, Blackmoor", 
+    "title": "Hidden in Shadows"
+  }, 
+  "https://swampofmonsters.blogspot.com": {
+    "xmlUrl": "https://swampofmonsters.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Nate L", 
+    "system": "", 
+    "title": "Swamp of Monsters!"
+  }, 
+  "http://textgolem.blogspot.com": {
+    "xmlUrl": "http://textgolem.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "setting pieces and generators", 
+    "author": "Ian Really", 
+    "system": "generic, OSResque", 
+    "title": "textgolem"
+  }, 
+  "https://forgeduniverse.com/": {
+    "xmlUrl": "https://forgeduniverse.com/f.rss", 
+    "theme": "Setting / world building, Fantasy & Fiction, Stock art, Storytelling", 
+    "author": "Andrey Plisko", 
+    "system": "System agnostic", 
+    "title": "The Forged Universe"
   }
 }

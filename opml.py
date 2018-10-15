@@ -23,6 +23,7 @@ import json
 from lxml import etree
 import sys
 import urllib
+import urlparse
 
 from BeautifulSoup import BeautifulSoup
 
@@ -116,7 +117,8 @@ def lookup_feed_urls(osr_blogs):
 
         # The feed URL is stored in the href attribute
         if alt is not None:
-            blog_meta_data['xmlUrl'] = alt['href']
+            xmlUrl = urlparse.urljoin(url, alt['href'])
+            blog_meta_data['xmlUrl'] = xmlUrl
         else:
             bad_blogs.append((url, "Failed to find feed tag."))
             continue
