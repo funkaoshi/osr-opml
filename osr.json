@@ -1734,5 +1734,61 @@
     "author": "Andrey Plisko", 
     "system": "System agnostic", 
     "title": "The Forged Universe"
+  }, 
+  "http://theotherside.timsbrannan.com/": {
+    "xmlUrl": "http://theotherside.timsbrannan.com/feeds/posts/default?alt=rss", 
+    "theme": "Horror, old school games, new school games, witches and vampires", 
+    "author": "Tim Brannan", 
+    "system": "OSR, D&D, Horror RPGs", 
+    "title": "The Other Side"
+  }, 
+  "https://bottomlesssarcophagus.blogspot.com/": {
+    "xmlUrl": "https://bottomlesssarcophagus.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "unorthodox fantasy lore, GLOG classes and tables", 
+    "author": "Monsieur Le Battlier", 
+    "system": "OSR, GLOG", 
+    "title": "The Bottomless Sarcophagus"
+  }, 
+  "http://furtivegoblingaming.blogspot.com/": {
+    "xmlUrl": "http://furtivegoblingaming.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Lore, Campaign Ideas, Histories, Occasional Random Tables", 
+    "author": "TheFurtiveGoblin", 
+    "system": "Systemless", 
+    "title": "Furtive Goblin Gaming"
+  }, 
+  "https://undergroundadv.blogspot.com/": {
+    "xmlUrl": "https://undergroundadv.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Session reports (and other stuff) for my Barrowmaze Into the Odd game, RPG musings", 
+    "author": "Tana\u00ebl G.", 
+    "system": "Into the Odd, OD&D, Zaibatsu", 
+    "title": "Underground Adventures"
+  }, 
+  "http://goblinburg.blogspot.com/": {
+    "xmlUrl": "http://goblinburg.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Rules, classes, development journal", 
+    "author": "Eric Nieudan", 
+    "system": "Macchiato Monsters, B/X", 
+    "title": "The Goblinburg Notebook"
+  }, 
+  "https://swordsandstitchery.blogspot.com/": {
+    "xmlUrl": "https://swordsandstitchery.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Eric Fabiaschi", 
+    "system": "OSR, D&D", 
+    "title": "Swords & Stitchery"
+  }, 
+  "https://alifefullofadventure.blogspot.com/": {
+    "xmlUrl": "https://alifefullofadventure.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Lots of game recaps/reports. Some brainstorming.", 
+    "author": "Roger Brasslett", 
+    "system": "WFRP, D&D 2e", 
+    "title": "A Life Full of Adventure"
+  }, 
+  "http://dragonbones.net": {
+    "xmlUrl": "http://dragonbones.net/feed/", 
+    "theme": "Gaming art, character portraits, map making ideas", 
+    "author": "Matt Lichtenwalner", 
+    "system": "system agnostic", 
+    "title": "Dragon Bones and Rusted Armor"
   }
 }
