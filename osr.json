@@ -1790,5 +1790,47 @@
     "author": "Matt Lichtenwalner", 
     "system": "system agnostic", 
     "title": "Dragon Bones and Rusted Armor"
+  }, 
+  "http://bearded-devil.com/": {
+    "xmlUrl": "http://bearded-devil.com/?feed=rss2", 
+    "theme": "Session reports and art from Bearded Devil's homegame", 
+    "author": "Bearded Devil", 
+    "system": "5e", 
+    "title": "Bearded Devil"
+  }, 
+  "https://daimon-games.blogspot.com/": {
+    "xmlUrl": "https://daimon-games.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Home of the Black Dogs zine, Crying Blades and Crying Hack, some other OSR productions by Daimon Games, and City of Judas (dark fantasy PbtA)", 
+    "author": "Davide Pignedoli", 
+    "system": "OSR, some PbtA", 
+    "title": "Daimon Games"
+  }, 
+  "https://mockorangecairn.blogspot.com/": {
+    "xmlUrl": "https://mockorangecairn.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "A smattering of reviews, session reports, etc", 
+    "author": "Bast", 
+    "system": "LotFP, 5e, Changeling the Lost", 
+    "title": "Mock Orange Cairn"
+  }, 
+  "https://stockingthedungeon.blogspot.com": {
+    "xmlUrl": "https://stockingthedungeon.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Random Classic D&D stuff with a Mystara setting focus", 
+    "author": "Darva Shriver", 
+    "system": "B/X BECMI OSR", 
+    "title": "Stocking The Dungeon"
+  }, 
+  "http://wizardshaw.blogspot.com/": {
+    "xmlUrl": "http://wizardshaw.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Theory, mystery, adventure design, procedures, random tables", 
+    "author": "wizardshaw", 
+    "system": "S&W/OD&D, OSR, DCC, 5e", 
+    "title": "wizardshaw"
+  }, 
+  "https://superheronecromancer.blogspot.com/": {
+    "xmlUrl": "https://superheronecromancer.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Varies. Older posts more focused on early OSR questions / exploration. More recent posts more about campaigns.", 
+    "author": "Rich Forest", 
+    "system": "B/X, TFT, Runequest, D&D 5e, Dauerregen", 
+    "title": "Superhero Necromancer"
   }
 }

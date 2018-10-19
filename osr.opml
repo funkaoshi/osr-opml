@@ -257,6 +257,12 @@
       <outline author="Eric Fabiaschi" htmlUrl="https://swordsandstitchery.blogspot.com/" system="OSR, D&amp;D" theme="" title="Swords &amp; Stitchery" xmlUrl="https://swordsandstitchery.blogspot.com/feeds/posts/default?alt=rss"/>
       <outline author="Roger Brasslett" htmlUrl="https://alifefullofadventure.blogspot.com/" system="WFRP, D&amp;D 2e" theme="Lots of game recaps/reports. Some brainstorming." title="A Life Full of Adventure" xmlUrl="https://alifefullofadventure.blogspot.com/feeds/posts/default?alt=rss"/>
       <outline author="Matt Lichtenwalner" htmlUrl="http://dragonbones.net" system="system agnostic" theme="Gaming art, character portraits, map making ideas" title="Dragon Bones and Rusted Armor" xmlUrl="http://dragonbones.net/feed/"/>
+      <outline author="Bearded Devil" htmlUrl="http://bearded-devil.com/" system="5e" theme="Session reports and art from Bearded Devil's homegame" title="Bearded Devil" xmlUrl="http://bearded-devil.com/?feed=rss2"/>
+      <outline author="Davide Pignedoli" htmlUrl="https://daimon-games.blogspot.com/" system="OSR, some PbtA" theme="Home of the Black Dogs zine, Crying Blades and Crying Hack, some other OSR productions by Daimon Games, and City of Judas (dark fantasy PbtA)" title="Daimon Games" xmlUrl="https://daimon-games.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Bast" htmlUrl="https://mockorangecairn.blogspot.com/" system="LotFP, 5e, Changeling the Lost" theme="A smattering of reviews, session reports, etc" title="Mock Orange Cairn" xmlUrl="https://mockorangecairn.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Darva Shriver" htmlUrl="https://stockingthedungeon.blogspot.com" system="B/X BECMI OSR" theme="Random Classic D&amp;D stuff with a Mystara setting focus" title="Stocking The Dungeon" xmlUrl="https://stockingthedungeon.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="wizardshaw" htmlUrl="http://wizardshaw.blogspot.com/" system="S&amp;W/OD&amp;D, OSR, DCC, 5e" theme="Theory, mystery, adventure design, procedures, random tables" title="wizardshaw" xmlUrl="http://wizardshaw.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline author="Rich Forest" htmlUrl="https://superheronecromancer.blogspot.com/" system="B/X, TFT, Runequest, D&amp;D 5e, Dauerregen" theme="Varies. Older posts more focused on early OSR questions / exploration. More recent posts more about campaigns." title="Superhero Necromancer" xmlUrl="https://superheronecromancer.blogspot.com/feeds/posts/default?alt=rss"/>
     </outline>
   </body>
 </opml>
