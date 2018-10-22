@@ -1832,5 +1832,19 @@
     "author": "Rich Forest", 
     "system": "B/X, TFT, Runequest, D&D 5e, Dauerregen", 
     "title": "Superhero Necromancer"
+  }, 
+  "http://tenkarstavern.com": {
+    "xmlUrl": "http://www.tenkarstavern.com/feeds/posts/default?alt=rss", 
+    "theme": "Self submitted as requested on Reddit", 
+    "author": "Erik Tenkar", 
+    "system": "OSR, Swords & Wizardy", 
+    "title": "Tenkar's Tavern"
+  }, 
+  "http://redbeardsravings.blogspot.com/": {
+    "xmlUrl": "http://redbeardsravings.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "City and megadungeon campaign", 
+    "author": "Redbeard", 
+    "system": "O5Rish,Into the Unknown", 
+    "title": "Redbeard's Ravings"
   }
 }
