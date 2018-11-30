@@ -1588,13 +1588,6 @@
     "system": "DCC/MCC", 
     "title": "Space Crawl"
   }, 
-  "https://takeonrules.com": {
-    "xmlUrl": "https://takeonrules.com/feed/", 
-    "theme": "Session reports, random tables, procedures, reviews", 
-    "author": "Jeremy Friesen", 
-    "system": "OSR, BW, Pbta, RPG", 
-    "title": "Take  on Rules"
-  }, 
   "https://talesoftheramblingbumblers.com/": {
     "xmlUrl": "https://talesoftheramblingbumblers.com/feed/", 
     "theme": "General purpose RPG blog", 
@@ -1846,5 +1839,117 @@
     "author": "Redbeard", 
     "system": "O5Rish,Into the Unknown", 
     "title": "Redbeard's Ravings"
+  }, 
+  "http://url": {
+    "xmlUrl": "", 
+    "theme": "Theme", 
+    "author": "Blog Owner", 
+    "system": "Home System", 
+    "title": "Blog Name"
+  }, 
+  "https://1d30.wordpress.com/": {
+    "xmlUrl": "https://1d30.wordpress.com/feed/", 
+    "theme": "", 
+    "author": "Mister Tipsta", 
+    "system": "", 
+    "title": "1d30"
+  }, 
+  "http://3toadstools.blogspot.com": {
+    "xmlUrl": "http://3toadstools.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "OSR ramblings, free maps, reviews, random tables.", 
+    "author": "Shane Ward", 
+    "system": "Basic Fantasy, Blueholme, B/X", 
+    "title": "3 Toadstools"
+  }, 
+  "https://aswampinspace.blogspot.com/": {
+    "xmlUrl": "https://aswampinspace.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Space Fantasy, Personal Thoughts, Gonzo weirdness, new-school ideas", 
+    "author": "wr3cking8a11", 
+    "system": "OSR, GLOG, DCC", 
+    "title": "A Swamp in Space"
+  }, 
+  "http://benignbrownbeast.blogspot.com/": {
+    "xmlUrl": "http://benignbrownbeast.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Mostly dead rn, but hopefully maritime", 
+    "author": "Ian McDougall", 
+    "system": "lotfp, 5e", 
+    "title": "Benign Brown Beast"
+  }, 
+  "https://dungeonliar.blogspot.com/": {
+    "xmlUrl": "https://dungeonliar.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Hexcrawls, campaign/setting notes, play reports, idea cataloging, and mini adventures", 
+    "author": "spindatheliar (Ian)", 
+    "system": "D&D 5e, OSR", 
+    "title": "Dungeonliar"
+  }, 
+  "http://grodog.blogspot.com/": {
+    "xmlUrl": "https://grodog.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Greyhawk and AD&D 1e content", 
+    "author": "Allan Grohe", 
+    "system": "AD&D/OSRIC", 
+    "title": "From Kuroth's Quill"
+  }, 
+  "https://tsojcanth.wordpress.com/": {
+    "xmlUrl": "https://tsojcanth.wordpress.com/feed/", 
+    "theme": "Thoughts about old school gaming, development ideas", 
+    "author": "Paolo Greco", 
+    "system": "AFG, Mageblade!", 
+    "title": "Lost Pages"
+  }, 
+  "https://roseandkingfisher.blogspot.com/": {
+    "xmlUrl": "https://roseandkingfisher.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Oscillates between horror-noir and gonzo swashbuckling, obsessed with simple mechanics and design", 
+    "author": "Ezra Bloom", 
+    "system": "5e, OSR, GLOG", 
+    "title": "Rose & Kingfisher"
+  }, 
+  "https://cecilhowe.github.io": {
+    "xmlUrl": "", 
+    "theme": "", 
+    "author": "Cecil Howe", 
+    "system": "", 
+    "title": "Sword Peddler"
+  }, 
+  "https://takeonrules.com": {
+    "xmlUrl": "https://takeonrules.com/feed.xml", 
+    "theme": "Session reports, random tables, procedures, reviews", 
+    "author": "Jeremy Friesen", 
+    "system": "OSR, BW, Pbta, RPG", 
+    "title": "Take  on Rules"
+  }, 
+  "https://oblidisideryptch.blogspot.com/": {
+    "xmlUrl": "https://oblidisideryptch.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "5e X OSR = 5e rules with OSR feel. Work in progress.", 
+    "author": "Max Sellers", 
+    "system": "D&D 5e", 
+    "title": "The Oblidisideryptch"
+  }, 
+  "https://whosemeasure.blogspot.com/": {
+    "xmlUrl": "https://whosemeasure.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Luke Murphy", 
+    "system": "Homebrew", 
+    "title": "Whose Measure God Could Not Take"
+  }, 
+  "https://wyrdspeak.blogspot.com/": {
+    "xmlUrl": "https://wyrdspeak.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Mini Adventures, Tables, Play Reports, And Mini Campaign Settings, All Free!", 
+    "author": "Meridian Miller", 
+    "system": "Into The Odd, GLOG", 
+    "title": "Wyrdspeak"
+  }, 
+  "https://sameissharkinjapanese.blogspot.com/": {
+    "xmlUrl": "https://sameissharkinjapanese.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Projects I'm working on, dungeons, settings, etc.", 
+    "author": "Walfalcon", 
+    "system": "Whatever", 
+    "title": "\u3075\u304b\u3072\u308c\u30b9\u30fc\u30d7"
+  }, 
+  "https://titancorpse.blogspot.com/": {
+    "xmlUrl": "https://titancorpse.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Jacob Butcher", 
+    "system": "Knave/5e/AD&D Hack", 
+    "title": "Flowers for the Titancorpse"
   }
 }
