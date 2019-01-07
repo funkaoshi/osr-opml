@@ -1951,5 +1951,19 @@
     "author": "Jacob Butcher", 
     "system": "Knave/5e/AD&D Hack", 
     "title": "Flowers for the Titancorpse"
+  }, 
+  "https://owlbearhugs.blogspot.com/": {
+    "xmlUrl": "https://owlbearhugs.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "been mostly play reports, odds and ends as i get themout", 
+    "author": "qpop", 
+    "system": "LotFP, Troika!", 
+    "title": "Owlbear Hugs"
+  }, 
+  "https://old-huron-archive.netlify.com": {
+    "xmlUrl": "https://old-huron-archive.netlify.com/index.xml", 
+    "theme": "", 
+    "author": "Viktor Haag", 
+    "system": "Traveller, 5e, OSR, Delta green", 
+    "title": "Old Huron Archive"
   }
 }
