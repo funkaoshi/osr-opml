@@ -1965,5 +1965,33 @@
     "author": "Viktor Haag", 
     "system": "Traveller, 5e, OSR, Delta green", 
     "title": "Old Huron Archive"
+  }, 
+  "https://backtothekeep.blogspot.com": {
+    "xmlUrl": "https://backtothekeep.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Random gaming stuff, reviews, maps, and actual play reports", 
+    "author": "Robert Morris", 
+    "system": "Labyrinth Lord, B/X D&D", 
+    "title": "Back to the Keep"
+  }, 
+  "https://idledoodler.blogspot.com": {
+    "xmlUrl": "https://idledoodler.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Homebrew system, mechanics, game reflections", 
+    "author": "Idle Doodler", 
+    "system": "DIY D&D, The Black Hack, Knave, 5e", 
+    "title": "Idle Doings of an Idle Doodler"
+  }, 
+  "https://paperelemental.blogspot.com/": {
+    "xmlUrl": "https://paperelemental.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "\"mostly weird critters\"", 
+    "author": "Bacontime", 
+    "system": "Glog/Into the Odd", 
+    "title": "Paper Elemental"
+  }, 
+  "https://sheepandsorcery.blogspot.com/": {
+    "xmlUrl": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Brain babies for rpgs", 
+    "author": "Michael Kennedy", 
+    "system": "DCC", 
+    "title": "Sheep and Sorcery"
   }
 }
