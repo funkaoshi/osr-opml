@@ -1993,5 +1993,145 @@
     "author": "Michael Kennedy", 
     "system": "DCC", 
     "title": "Sheep and Sorcery"
+  }, 
+  "http://advancedgaming-theory.blogspot.com/": {
+    "xmlUrl": "http://advancedgaming-theory.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Ripper X", 
+    "system": "", 
+    "title": "Advanced Gaming & Theory"
+  }, 
+  "https://ancientvaults.wordpress.com/": {
+    "xmlUrl": "https://ancientvaults.wordpress.com/feed/", 
+    "theme": "", 
+    "author": "S R Hill", 
+    "system": "Troika!", 
+    "title": "Ancient Vaults & Eldritch Secrets"
+  }, 
+  "http://the-one-true-game-odnd.blogspot.com/": {
+    "xmlUrl": "http://the-one-true-game-odnd.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Daithi MacLiam/David McCarthy", 
+    "system": "", 
+    "title": "Crimhthan The Great's OD&D Blog"
+  }, 
+  "https://dreamingdragonslayer.wordpress.com": {
+    "xmlUrl": "https://dreamingdragonslayer.wordpress.com/feed/", 
+    "theme": "Game Design, Questing for Tabletop Adventure Games", 
+    "author": "Sam Doebler", 
+    "system": "Maze Rats and Dungeon World", 
+    "title": "Dreaming Dragonslayer"
+  }, 
+  "https://trueheartblackraven.blogspot.com/": {
+    "xmlUrl": "https://trueheartblackraven.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Raven Trueheart/Adam Connery", 
+    "system": "", 
+    "title": "Here Lurks the True Heart of the Black Raven"
+  }, 
+  "https://laughleviathan.blogspot.com/": {
+    "xmlUrl": "https://laughleviathan.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Tabletop RPG Blog", 
+    "author": "Brian Molina", 
+    "system": "DIY D&D, OSR, Others", 
+    "title": "Laugh Leviathan"
+  }, 
+  "https://originaleditionadventures.wordpress.com/": {
+    "xmlUrl": "https://originaleditionadventures.wordpress.com/feed/", 
+    "theme": "", 
+    "author": "Matthew Seibel", 
+    "system": "", 
+    "title": "Musing About Original Edition Adventures"
+  }, 
+  "https://musingofamavericreferee.wordpress.com/": {
+    "xmlUrl": "https://musingofamavericreferee.wordpress.com/feed/", 
+    "theme": "", 
+    "author": "Matthew Seibel", 
+    "system": "", 
+    "title": "Musings of a Maverick Referee & HooliGeek"
+  }, 
+  "http://mythlands-erce.blogspot.com/": {
+    "xmlUrl": "http://mythlands-erce.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "My hack of 5e-B/X called Into the Unknown, my snowflake setting (see title) and OSR stuff.", 
+    "author": "Anders H", 
+    "system": "Into the Unknown (creator), 5e, B/X", 
+    "title": "Mythlands of Erce"
+  }, 
+  "https://ravenousambience.blogspot.com": {
+    "xmlUrl": "https://ravenousambience.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Setting Info, Gameable Plot Threads, rpg stuff", 
+    "author": "Ambnz", 
+    "system": "GLOG-ish/Knave-hack Stuff", 
+    "title": "Ravenous Ambience"
+  }, 
+  "http://ruinsofarduin.blogspot.com/": {
+    "xmlUrl": "http://ruinsofarduin.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "John Miskimen", 
+    "system": "", 
+    "title": "Ruins of Arduin"
+  }, 
+  "http://santicore.blogspot.com/": {
+    "xmlUrl": "http://santicore.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "Content from and posts about the annual Secret Santicore project", 
+    "author": "Steve Sigety", 
+    "system": "DIY D&D (mostly) and other old school games", 
+    "title": "Secret Santicore Blog"
+  }, 
+  "https://www.spinewrinkle.com": {
+    "xmlUrl": "", 
+    "theme": "Strange world lore, random generators and tables, adventure hooks, and occasional reviews", 
+    "author": "Brandon D", 
+    "system": "5e, OSR", 
+    "title": "Spine Wrinkle"
+  }, 
+  "http://the-eastern-frontier.surge.sh/": {
+    "xmlUrl": "", 
+    "theme": "setting, play reports, tables", 
+    "author": "Evan Thaxter", 
+    "system": "Knave", 
+    "title": "Tales from the Eastern Frontier"
+  }, 
+  "https://dungeons-and-dragons-rpgs.blogspot.com/": {
+    "xmlUrl": "https://dungeons-and-dragons-rpgs.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Harry West", 
+    "system": "", 
+    "title": "The Gray Wolf Prowls"
+  }, 
+  "https://originaldungeons-and-dragons.blogspot.com/": {
+    "xmlUrl": "https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Halenar Frosthelm", 
+    "system": "", 
+    "title": "The Ruins of Murkhill - Original Dungeons & Dragons"
+  }, 
+  "https://wondrousadventure.com": {
+    "xmlUrl": "https://wondrousadventure.com/feed", 
+    "theme": "", 
+    "author": "Zack Wolf", 
+    "system": "", 
+    "title": "Wondrous Adventure"
+  }, 
+  "https://xizallian-s-dungeons-and-dragons.blogspot.com/": {
+    "xmlUrl": "https://xizallian-s-dungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "", 
+    "author": "Amanda Stormchaser", 
+    "system": "", 
+    "title": "Xizallian's Place"
+  }, 
+  "https://yenemvelt.blogspot.com/": {
+    "xmlUrl": "https://yenemvelt.blogspot.com/feeds/posts/default?alt=rss", 
+    "theme": "world-building, dungeons, and bleak psychedelia", 
+    "author": "Jesse Goldshear", 
+    "system": "OSR", 
+    "title": "Yenemvelt"
+  }, 
+  "https://mirrorsquid.czepeku.com/": {
+    "xmlUrl": "https://mirrorsquid.czepeku.com/feeds/posts/default?alt=rss", 
+    "theme": "World building, OSR ideas and map making", 
+    "author": "Cze Lee", 
+    "system": "OSR, Homebrew", 
+    "title": "Mirror Squid"
   }
 }
