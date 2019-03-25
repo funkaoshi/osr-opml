@@ -19,3 +19,5 @@ deploy:
     script: 
     - scp osr.opml ramanan@funkaoshi.com:/save.vs.totalpartykill.ca/grab-bag/
     - scp osr.json ramanan@funkaoshi.com:/save.vs.totalpartykill.ca/grab-bag/
+    only:
+    - travis
