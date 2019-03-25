@@ -14,7 +14,7 @@ script:
 before_install:
 - openssl aes-256-cbc -K $encrypted_3350766fb173_key -iv $encrypted_3350766fb173_iv -in deploy_rsa.enc -out deploy_rsa -d
 deploy:
-    provide: script
+    provider: script
     skip_cleanup: true
     script: 
     - scp osr.opml ramanan@funkaoshi.com:/save.vs.totalpartykill.ca/grab-bag/
