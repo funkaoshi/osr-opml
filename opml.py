@@ -20,12 +20,12 @@ We assume a bunch of file names throughout (osr.json, osr.opml, osr.csv).
 import argparse
 import collections
 import json
-from lxml import etree
 import sys
 import urllib
 import urlparse
 
 from BeautifulSoup import BeautifulSoup
+from lxml import etree
 
 import utfcsv
 

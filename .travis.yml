@@ -1,0 +1,9 @@
+language: python
+git:
+    depth: 1
+    quiet: true
+# branches:
+#   only:
+#   - master
+install:
+  - pip install -r requirements.txt
