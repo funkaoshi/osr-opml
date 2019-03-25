@@ -1,4 +1,6 @@
 language: python
+python:
+    - "2.7"
 git:
     depth: 1
     quiet: true
@@ -6,4 +8,7 @@ git:
 #   only:
 #   - master
 install:
-  - pip install -r requirements.txt
+    - pip install -r requirements.txt
+script:
+    - curl "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
+    - python opml.py -l
