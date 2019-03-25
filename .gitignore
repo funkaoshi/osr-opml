@@ -1,3 +1,8 @@
+# local config files.
+blacklist.py
+
+
+# compiled python
 *.py[cod]
 
 # C extensions

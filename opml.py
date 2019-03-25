@@ -29,6 +29,11 @@ from BeautifulSoup import BeautifulSoup
 
 import utfcsv
 
+try:
+    from blacklist import BLACKLIST
+except ImportError:
+    BLACKLIST = []
+
 
 def load_blogs_cache():
     """ Load our local OSR blogs cache """
@@ -49,6 +54,9 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
     python script. (If we want to get fancy later we can have Python code do
     everything.)
     """
+    cached_blogs = set((url.lower() for url, _ in osr_blogs.iteritems()))
+    downloaded_blogs = set()
+
     new_blogs = []
 
     # Load the OSR blogs CSV file previously pulled from Google Docs
@@ -57,8 +65,11 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
         next(csvfile, None)
 
         for row in utfcsv.unicode_csv_reader(csvfile):
-            # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
-            url, title, author, system, theme = [col.strip() for col in row]
+            try:
+                # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
+                url, title, author, system, theme = [col.strip() for col in row]
+            except ValueError:
+                continue
 
             # Missing URL and Title (or empty row) so skip
             if not url or not title:
@@ -69,12 +80,20 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
             if not url.startswith('http'):
                 url = 'http://' + url
 
+            downloaded_blogs.add(url)
+
+            # Don't include blacklisted URLs. If you want to make your own
+            # OSR OPML file full of freedom you can fork this code and go nuts!
+            if url in BLACKLIST:
+                continue
+
             # We've already processed this URL
-            if url in osr_blogs:
+            if url in cached_blogs:
                 continue
 
             # We have a new blog, add it to our cache
-            osr_blogs[url] = {
+            blog = {
+                'url': url,
                 'xmlUrl': '',
                 'title': title,
                 'author': author,
@@ -82,11 +101,18 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
                 'theme': theme
             }
 
-            new_blogs.append((author, title, url))
+            new_blogs.append(blog)
 
     print u"{0} new blogs:".format(len(new_blogs))
-    for author, title, url in new_blogs:
-        print u"- {0} by {1} ({2})".format(title, author, url)
+    for blog in new_blogs:
+        print u"- {0} by {1} ({2})".format(blog['title'], blog['author'], blog['url'])
+        osr_blogs[blog['url']] = blog
+
+    removed_blogs = cached_blogs - downloaded_blogs
+    print u"{0} removed blogs:".format(len(removed_blogs))
+    for url in removed_blogs:
+        blog = osr_blogs.pop(url)
+        print u"- {0} by {1} ({2})".format(blog['title'], blog['author'], url)
 
 
 def lookup_feed_urls(osr_blogs):

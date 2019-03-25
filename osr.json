@@ -1175,13 +1175,6 @@
     "system": "", 
     "title": "Occultesque"
   }, 
-  "http://beyondfomalhaut.blogspot.com/": {
-    "xmlUrl": "http://beyondfomalhaut.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "zine, reviews, OSR", 
-    "author": "Gabor Lux", 
-    "system": "C&C?AD&D, System neutral", 
-    "title": "Beyond Fomalhaut"
-  }, 
   "http://www.bastionland.com/": {
     "xmlUrl": "http://www.bastionland.com/feeds/posts/default?alt=rss", 
     "theme": "Odd magic items, game mechanics, GM advice", 
@@ -1244,13 +1237,6 @@
     "author": "Jens D.", 
     "system": "D&D RC, Lost Songs of the Nibelungs (creator)", 
     "title": "The Disoriented Ranger"
-  }, 
-  "https://dndwithpornstars.blogspot.com/": {
-    "xmlUrl": "https://dndwithpornstars.blogspot.com/feeds/posts/default?alt=rss", 
-    "theme": "a little of everything the OSR does", 
-    "author": "Zak Smith / Zak Sabbath", 
-    "system": "OSR, 5e, Demon City, others", 
-    "title": "Playing D&D With Porn Stars"
   }, 
   "https://nerdomancerofdork.wordpress.com": {
     "xmlUrl": "https://nerdomancerofdork.wordpress.com/feed/", 
@@ -1637,13 +1623,6 @@
     "system": "OSR, B/X, 5e", 
     "title": "Into the Wyrd and Wild"
   }, 
-  "https://the-eastern-frontier.tumblr.com/": {
-    "xmlUrl": "https://the-eastern-frontier.tumblr.com/rss", 
-    "theme": "setting, play reports, tables", 
-    "author": "Evan Thaxter", 
-    "system": "Knave", 
-    "title": "Tales from the Eastern Frontier"
-  }, 
   "http://www.strangestones.com": {
     "xmlUrl": "http://www.strangestones.com/feed/", 
     "theme": "NPCs/Rogues Gallery, Demons, Assorted gaming stuff", 
@@ -1825,13 +1804,6 @@
     "author": "Rich Forest", 
     "system": "B/X, TFT, Runequest, D&D 5e, Dauerregen", 
     "title": "Superhero Necromancer"
-  }, 
-  "http://tenkarstavern.com": {
-    "xmlUrl": "http://www.tenkarstavern.com/feeds/posts/default?alt=rss", 
-    "theme": "Self submitted as requested on Reddit", 
-    "author": "Erik Tenkar", 
-    "system": "OSR, Swords & Wizardy", 
-    "title": "Tenkar's Tavern"
   }, 
   "http://redbeardsravings.blogspot.com/": {
     "xmlUrl": "http://redbeardsravings.blogspot.com/feeds/posts/default?alt=rss", 
@@ -2133,5 +2105,13 @@
     "author": "Cze Lee", 
     "system": "OSR, Homebrew", 
     "title": "Mirror Squid"
+  }, 
+  "http://glaucushauriant.blogspot.com/": {
+    "author": "Harrison Swift", 
+    "url": "http://glaucushauriant.blogspot.com/", 
+    "title": "Glaucus Hauriant", 
+    "system": "B/X, 5e, Knave", 
+    "theme": "Homebrew races, magic items, random tables, spells, with occasional reviews and half-baked houserule suggestions.", 
+    "xmlUrl": "http://glaucushauriant.blogspot.com/feeds/posts/default?alt=rss"
   }
 }
