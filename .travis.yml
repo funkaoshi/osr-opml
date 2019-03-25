@@ -1,14 +1,21 @@
 language: python
 python:
-    - "2.7"
+- '2.7'
 git:
-    depth: 1
-    quiet: true
-# branches:
-#   only:
-#   - master
+  depth: 1
+  quiet: true
+addons:
+  ssh_known_hosts: funkaoshi.com
 install:
-    - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-    - curl "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
-    - python opml.py -l
+- curl "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
+- python opml.py -l
+before_install:
+- openssl aes-256-cbc -K $encrypted_3350766fb173_key -iv $encrypted_3350766fb173_iv -in deploy_rsa.enc -out deploy_rsa -d
+deploy:
+    provide: script
+    skip_cleanup: true
+    script: 
+    - scp osr.opml ramanan@funkaoshi.com:/save.vs.totalpartykill.ca/grab-bag/
+    - scp osr.json ramanan@funkaoshi.com:/save.vs.totalpartykill.ca/grab-bag/
