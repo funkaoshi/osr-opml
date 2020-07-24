@@ -19,15 +19,14 @@ We assume a bunch of file names throughout (osr.json, osr.opml, osr.csv).
 
 import argparse
 import collections
+import csv
 import json
 from lxml import etree
 import sys
-import urllib
-import urlparse
+import urllib.request, urllib.parse, urllib.error
+from urllib.parse import urlparse, urljoin
 
-from BeautifulSoup import BeautifulSoup
-
-import utfcsv
+from bs4 import BeautifulSoup
 
 try:
     from blacklist import BLACKLIST
@@ -54,7 +53,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
     python script. (If we want to get fancy later we can have Python code do
     everything.)
     """
-    cached_blogs = set((url.lower() for url, _ in osr_blogs.iteritems()))
+    cached_blogs = set((url.lower() for url, _ in list(osr_blogs.items())))
     downloaded_blogs = set()
 
     new_blogs = []
@@ -64,7 +63,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
         # skip first line of the file, the header
         next(csvfile, None)
 
-        for row in utfcsv.unicode_csv_reader(csvfile):
+        for row in csv.reader(csvfile):
             try:
                 # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
                 url, title, author, system, theme = [col.strip() for col in row]
@@ -103,29 +102,29 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
             new_blogs.append(blog)
 
-    print u"{0} new blogs:".format(len(new_blogs))
+    print(f"{len(new_blogs)} new blogs:")
     for blog in new_blogs:
-        print u"- {0} by {1} ({2})".format(blog['title'], blog['author'], blog['url'])
+        print(f"- {blog['title']} by {blog['author']} ({blog['url']})")
         osr_blogs[blog['url']] = blog
 
     removed_blogs = cached_blogs - downloaded_blogs
-    print u"{0} removed blogs:".format(len(removed_blogs))
+    print(f"{len(removed_blogs)} removed blogs:")
     for url in removed_blogs:
         blog = osr_blogs.pop(url)
-        print u"- {0} by {1} ({2})".format(blog['title'], blog['author'], url)
+        print(f"- {blog['title']} by {blog['author']} ({url})")
 
 
 def lookup_feed_urls(osr_blogs):
     """ Lookup the feed URLs for all the blogs that missing them. """
     bad_blogs = []
 
-    for url, blog_meta_data in osr_blogs.iteritems():
+    for url, blog_meta_data in list(osr_blogs.items()):
         if blog_meta_data['xmlUrl']:
             continue
 
         # Fetch the blogs home page
         try:
-            data = urllib.urlopen(url)
+            data = urllib.request.urlopen(url)
             if data.getcode() != 200:
                 bad_blogs.append((url, "Error fetching feed: {}".format(data.getcode())))
                 continue
@@ -135,7 +134,7 @@ def lookup_feed_urls(osr_blogs):
 
         # Parse the page and look for alternate link elements
         try:
-            soup = BeautifulSoup(data)
+            soup = BeautifulSoup(data, features="lxml")
             alt = soup.find('link', rel="alternate", type="application/rss+xml")
         except ValueError as e:
             bad_blogs.append((url, "Failed to parse HTML: {}".format(e)))
@@ -143,7 +142,7 @@ def lookup_feed_urls(osr_blogs):
 
         # The feed URL is stored in the href attribute
         if alt is not None:
-            xmlUrl = urlparse.urljoin(url, alt['href'])
+            xmlUrl = urljoin(url, alt['href'])
             blog_meta_data['xmlUrl'] = xmlUrl
         else:
             bad_blogs.append((url, "Failed to find feed tag."))
@@ -153,9 +152,9 @@ def lookup_feed_urls(osr_blogs):
         with open('osr.json', 'w') as osr_json:
             json.dump(osr_blogs, osr_json, indent=2)
 
-    print u"{0} blogs with errors:".format(len(bad_blogs))
+    print(f"{len(bad_blogs)} blogs with errors:")
     for url, error in bad_blogs:
-        print u"- {0} ({1})".format(url, error)
+        print(f"- {url} ({error})")
 
 
 def generate_opml_file(osr_blogs):
@@ -163,14 +162,14 @@ def generate_opml_file(osr_blogs):
     opml = etree.Element('opml', version="2.0")
     body = etree.SubElement(opml, 'body')
     outline = etree.SubElement(body, 'outline', title="OSR Blogs")
-    for url, blog_meta_data in osr_blogs.iteritems():
+    for url, blog_meta_data in list(osr_blogs.items()):
         if not blog_meta_data['xmlUrl']:
             continue
         blog_meta_data['htmlUrl'] = url
         etree.SubElement(outline, 'outline', **blog_meta_data)
 
     with open('osr.opml', 'w') as osr_opml:
-        etree.ElementTree(opml).write(osr_opml, pretty_print=True)
+        etree.ElementTree(opml).write(str(osr_opml), pretty_print=True)
 
 
 if __name__ == "__main__":
