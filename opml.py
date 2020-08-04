@@ -168,8 +168,7 @@ def generate_opml_file(osr_blogs):
         blog_meta_data['htmlUrl'] = url
         etree.SubElement(outline, 'outline', **blog_meta_data)
 
-    with open('osr.opml', 'w') as osr_opml:
-        etree.ElementTree(opml).write(str(osr_opml), pretty_print=True)
+    etree.ElementTree(opml).write('osr.opml', pretty_print=True)
 
 
 if __name__ == "__main__":
