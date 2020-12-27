@@ -2302,5 +2302,45 @@
     "author": "Jones Smith",
     "system": "OSR",
     "theme": "OSR focused writing pieces, ideas, and fragments of inspiration"
+  },
+  "https://brinehouse.blogspot.com/": {
+    "url": "https://brinehouse.blogspot.com/",
+    "xmlUrl": "https://brinehouse.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Brinehouse",
+    "author": "King Brackish",
+    "system": "B/X",
+    "theme": "B/X, OSR, Horror, Weebstuff"
+  },
+  "http://dwelleroftheforbiddencity.blogspot.com/2020/": {
+    "url": "http://dwelleroftheforbiddencity.blogspot.com/2020/",
+    "xmlUrl": "http://dwelleroftheforbiddencity.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Dweller of the Forbidden City",
+    "author": "Black Dragon Games",
+    "system": "OSR",
+    "theme": ""
+  },
+  "https://lapidaryossuary.blogspot.com": {
+    "url": "https://lapidaryossuary.blogspot.com",
+    "xmlUrl": "https://lapidaryossuary.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Lapidary Ossuary",
+    "author": "Linden",
+    "system": "GLOG, Knave, heartbreaker homebrews",
+    "theme": "Fantasy OSR/NSR/SWORDDREAM writings, random tables, essays, and game hacks."
+  },
+  "https://yaldabaothofficial.blogspot.com/": {
+    "url": "https://yaldabaothofficial.blogspot.com/",
+    "xmlUrl": "",
+    "title": "Third Eye Openers",
+    "author": "Anselm Home",
+    "system": "M\u00f6rk Borg, B/X, OSR",
+    "theme": "gonzo, actual plays, reviews"
+  },
+  "https://traipse.hexarcana.com/": {
+    "url": "https://traipse.hexarcana.com/",
+    "xmlUrl": "https://traipse.hexarcana.com/feeds/posts/default?alt=rss",
+    "title": "TRAIPSE",
+    "author": "Traipse",
+    "system": "B/X, OD&D, monstrous homebrew amalgam",
+    "theme": "Tools, tables, braindump"
   }
 }
