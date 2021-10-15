@@ -2374,5 +2374,13 @@
     "author": "Eric Reitz",
     "system": "B/X Retroclones, AD&D, and Knave",
     "theme": "OSR mechanics, DM advice, worldbuilding, my session reports and I\nreview indie OSR works!"
+  },
+  "http://aloneinthelabyrinth.blogspot.com/": {
+    "url": "http://aloneinthelabyrinth.blogspot.com/",
+    "xmlUrl": "http://aloneinthelabyrinth.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Alone in the Labyrinth",
+    "author": "Sofinho",
+    "system": "OSE/BX and Homebrew (Pariah)",
+    "theme": "Proto neolithic psychedelia, urban horror, classic D&D"
   }
 }

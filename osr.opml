@@ -329,6 +329,7 @@
       <outline url="http://eviltables.dev" xmlUrl="https://eviltables.dev/feed/" title="Evil Tables" author="Evil Tables" system="OSR" theme="random tables and hexcrawls" htmlUrl="http://eviltables.dev"/>
       <outline url="https://www.prismaticwasteland.com/" xmlUrl="https://www.prismaticwasteland.com/blog?format=rss" title="Prismatic Wasteland" author="W.F. Smith" system="OSR" theme="Post-post-apocalyptic science fantasy" htmlUrl="https://www.prismaticwasteland.com/"/>
       <outline url="https://reactionrolls.blogspot.com/" xmlUrl="https://reactionrolls.blogspot.com/feeds/posts/default?alt=rss" title="Reaction Rolls" author="Eric Reitz" system="B/X Retroclones, AD&amp;D, and Knave" theme="OSR mechanics, DM advice, worldbuilding, my session reports and I&#10;review indie OSR works!" htmlUrl="https://reactionrolls.blogspot.com/"/>
+      <outline url="http://aloneinthelabyrinth.blogspot.com/" xmlUrl="http://aloneinthelabyrinth.blogspot.com/feeds/posts/default?alt=rss" title="Alone in the Labyrinth" author="Sofinho" system="OSE/BX and Homebrew (Pariah)" theme="Proto neolithic psychedelia, urban horror, classic D&amp;D" htmlUrl="http://aloneinthelabyrinth.blogspot.com/"/>
     </outline>
   </body>
 </opml>
