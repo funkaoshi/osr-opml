@@ -1,11 +1,13 @@
 on:
+  push:
   schedule:
     - cron:  '12 0 * * *'
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - run: curl -L "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
       - run: pip install -r requirements.txt
       - run: python opml.py -l
       - run: scp osr.json ramanan@funkaoshi.com:save.vs.totalpartykill.ca/grab-bag/osr.json
-	  - run: scp osr.opml ramanan@funkaoshi.com:save.vs.totalpartykill.ca/grab-bag/osr.opml
+      - run: scp osr.opml ramanan@funkaoshi.com:save.vs.totalpartykill.ca/grab-bag/osr.opml
