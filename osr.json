@@ -2382,5 +2382,69 @@
     "author": "Sofinho",
     "system": "OSE/BX and Homebrew (Pariah)",
     "theme": "Proto neolithic psychedelia, urban horror, classic D&D"
+  },
+  "https://www.demogorgon.org/": {
+    "url": "https://www.demogorgon.org/",
+    "xmlUrl": "https://www.demogorgon.org/feeds/posts/default?alt=rss",
+    "title": "Demogorgon",
+    "author": "Jacob Hurst",
+    "system": "OSR",
+    "theme": "Worldbuilding, Hexcrawls, Swordfish Islands, Random Crap"
+  },
+  "https://rottenpulp.blogspot.com/": {
+    "url": "https://rottenpulp.blogspot.com/",
+    "xmlUrl": "https://rottenpulp.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Rotten Pulp",
+    "author": "Jack McNamee",
+    "system": "OSR",
+    "theme": "Weird gonzo pre-apocalypse monsters and nonsense"
+  },
+  "https://www.donjonlands.com/": {
+    "url": "https://www.donjonlands.com/",
+    "xmlUrl": "https://www.donjonlands.com/index.rdf",
+    "title": "DONJON LANDS",
+    "author": "Stephen Wendell",
+    "system": "OD&D, Holmes, AD&D, B/X, Chainmail, Bath\u2019s Wargames Campaigns, Outdoor Survival, AH Civilization",
+    "theme": "Simulation games of exploration, adventure, and war using miniature figurines, pencil and paper, and many-sided dice"
+  },
+  "https://mindstorm.blot.im": {
+    "url": "https://mindstorm.blot.im",
+    "xmlUrl": "https://mindstorm.blot.im/feed.rss",
+    "title": "mindstorm",
+    "author": "eldritch mouse",
+    "system": "",
+    "theme": "rpgs, both indie and osr"
+  },
+  "http://tomboftedankhamen.blogspot.com": {
+    "url": "http://tomboftedankhamen.blogspot.com",
+    "xmlUrl": "http://tomboftedankhamen.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Tomb of Tedankhamen",
+    "author": "Tedankhamen",
+    "system": "Stormbringer 1E",
+    "theme": "Deconstructive game (re)design, wonky inspirations."
+  },
+  "https://staggeredamusements.wordpress.com/": {
+    "url": "https://staggeredamusements.wordpress.com/",
+    "xmlUrl": "https://staggeredamusements.wordpress.com/feed/",
+    "title": "Staggered Amusements",
+    "author": "Staggered Amusment Machine",
+    "system": "Traveller, Delta Green",
+    "theme": "Thoughts on RPGs for science fiction and modern settings"
+  },
+  "https://olobosk.com/": {
+    "url": "https://olobosk.com/",
+    "xmlUrl": "https://olobosk.com/feed/",
+    "title": "Olobosk",
+    "author": "Olobosk",
+    "system": "OSR / Homebrew",
+    "theme": "Game Design, Adventures, Custom Setting Stuff"
+  },
+  "http://jerryboucher.blogspot.com/": {
+    "url": "http://jerryboucher.blogspot.com/",
+    "xmlUrl": "http://jerryboucher.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Scribblings Or Something",
+    "author": "Jerry Boucher",
+    "system": "Mostly 1E AD&D, plus others",
+    "theme": "Mostly monsters for 1E AD&D, plus various other rpg-related material."
   }
 }
