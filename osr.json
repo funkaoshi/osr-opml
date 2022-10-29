@@ -2111,14 +2111,6 @@
     "system": "DragonQuest (SPI); TFT; CPunk; other misc",
     "theme": "Dungeon (&other) maps, homebrew, SF"
   },
-  "https://basicredrpg.blogspot.com/": {
-    "url": "https://basicredrpg.blogspot.com/",
-    "xmlUrl": "https://basicredrpg.blogspot.com/feeds/posts/default?alt=rss",
-    "title": "Basic Red",
-    "author": "Daniel Dean",
-    "system": "OSR",
-    "theme": "Classes, Monsters, Spells, Dungeons, Rules"
-  },
   "http://bernietheflumph.blogspot.com/": {
     "url": "http://bernietheflumph.blogspot.com/",
     "xmlUrl": "http://bernietheflumph.blogspot.com/feeds/posts/default?alt=rss",
@@ -2399,14 +2391,6 @@
     "system": "OSR",
     "theme": "Weird gonzo pre-apocalypse monsters and nonsense"
   },
-  "https://www.donjonlands.com/": {
-    "url": "https://www.donjonlands.com/",
-    "xmlUrl": "https://www.donjonlands.com/index.rdf",
-    "title": "DONJON LANDS",
-    "author": "Stephen Wendell",
-    "system": "OD&D, Holmes, AD&D, B/X, Chainmail, Bath\u2019s Wargames Campaigns, Outdoor Survival, AH Civilization",
-    "theme": "Simulation games of exploration, adventure, and war using miniature figurines, pencil and paper, and many-sided dice"
-  },
   "https://mindstorm.blot.im": {
     "url": "https://mindstorm.blot.im",
     "xmlUrl": "https://mindstorm.blot.im/feed.rss",
@@ -2446,5 +2430,69 @@
     "author": "Jerry Boucher",
     "system": "Mostly 1E AD&D, plus others",
     "theme": "Mostly monsters for 1E AD&D, plus various other rpg-related material."
+  },
+  "https://basicredrpg.blogspot.com/of": {
+    "url": "https://basicredrpg.blogspot.com/of",
+    "xmlUrl": "",
+    "title": "Basic Red",
+    "author": "Daniel Dean",
+    "system": "OSR",
+    "theme": "Classes, Monsters, Spells, Dungeons, Rules"
+  },
+  "https://osrgrimoire.blogspot.com/": {
+    "url": "https://osrgrimoire.blogspot.com/",
+    "xmlUrl": "https://osrgrimoire.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "OSR Grimoire",
+    "author": "Demos Sachlas",
+    "system": "OSR",
+    "theme": "a historial exploration of the D&D game"
+  },
+  "https://www.donjonlands.com": {
+    "url": "https://www.donjonlands.com",
+    "xmlUrl": "",
+    "title": "DONJON LANDS",
+    "author": "Stephen Wendell",
+    "system": "OD&D, Holmes, AD&D, B/X, Chainmail, Bath\u2019s Wargames Campaigns, Outdoor Survival, AH Civilization",
+    "theme": "Simulation games of exploration, adventure, and war using miniature figurines, pencil and paper, and many-sided dice"
+  },
+  "https://crabdungeon.blogspot.com/": {
+    "url": "https://crabdungeon.blogspot.com/",
+    "xmlUrl": "https://crabdungeon.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Crab Dungeon",
+    "author": "Dungeon Crab",
+    "system": "Knave, homebrew, Mothership",
+    "theme": "Dungeon ideas, play reports, tables, some programming and reviews stuff?"
+  },
+  "https://worldofortix.blogspot.com/": {
+    "url": "https://worldofortix.blogspot.com/",
+    "xmlUrl": "https://worldofortix.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "World of Ortix",
+    "author": "Albert Rakowski",
+    "system": "OSR / Homebrew",
+    "theme": "All things OSR"
+  },
+  "https://axianspice.blogspot.com/": {
+    "url": "https://axianspice.blogspot.com/",
+    "xmlUrl": "https://axianspice.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Axian Spice",
+    "author": "Giuseppe Rotondo",
+    "system": "OSR, OSE, Savage Worlds",
+    "theme": "Reviews, ramblings, tables"
+  },
+  "https://undeadwaffle.com/": {
+    "url": "https://undeadwaffle.com/",
+    "xmlUrl": "https://undeadwaffle.com/feed/",
+    "title": "The Breakfast Ossuary",
+    "author": "UndeadWaffle",
+    "system": "OSE",
+    "theme": "Whatever comes to mind"
+  },
+  "https://meeplefish.blogspot.com/": {
+    "url": "https://meeplefish.blogspot.com/",
+    "xmlUrl": "https://meeplefish.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Meeplefish 'n' Chips",
+    "author": "C.R. Alexander",
+    "system": "OSR",
+    "theme": "Reviews, OSR, Terrible Opinions"
   }
 }
