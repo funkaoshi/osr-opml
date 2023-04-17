@@ -33,6 +33,7 @@ try:
 except ImportError:
     BLACKLIST = []
 
+print(f"The blacklist is {BLACKLIST}")
 
 def load_blogs_cache():
     """ Load our local OSR blogs cache """
@@ -77,7 +78,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
             # Clean up URLs
             url = url.lower()
             if not url.startswith('http'):
-                url = 'http://' + url
+                url = 'https://' + url
 
             downloaded_blogs.add(url)
 

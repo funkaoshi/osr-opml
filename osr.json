@@ -286,13 +286,6 @@
     "system": "OD&D and homebrew",
     "title": "Necropraxis"
   },
-  "http://www.wrathofzombie.wordpress.com": {
-    "xmlUrl": "https://wrathofzombie.wordpress.com/feed/",
-    "theme": "Various rambling about games and published works",
-    "author": "Mike Evans",
-    "system": "OSR/DIY D&D, DCC",
-    "title": "Wrathofzombie's Game Blog"
-  },
   "http://killyourdungeonmaster.blogspot.com": {
     "xmlUrl": "http://killyourdungeonmaster.blogspot.com/feeds/posts/default?alt=rss",
     "theme": "house rules, monsters",
@@ -601,20 +594,6 @@
     "system": "LotFP, WFRP",
     "title": "ANT-LERRR"
   },
-  "http://www.deepsheep.com": {
-    "xmlUrl": "https://www.deepsheep.com/feeds/posts/default?alt=rss",
-    "theme": "OSR thoughts",
-    "author": "Jonathan N.",
-    "system": "OSR",
-    "title": "Deep Sheep"
-  },
-  "http://www.gwythaintny.wordpress.com": {
-    "xmlUrl": "https://gwythaintny.wordpress.com/feed/",
-    "theme": "art, reviews, conversions, play reports",
-    "author": "Denis McCarthy",
-    "system": "SWCL, GURPS DF",
-    "title": "Northport"
-  },
   "http://vorpalmace.blogspot.com": {
     "xmlUrl": "http://vorpalmace.blogspot.com/feeds/posts/default?alt=rss",
     "theme": "Adventure module reviews, mostly",
@@ -656,13 +635,6 @@
     "author": "Michael Moscrip",
     "system": "OD&D, Lab Lord",
     "title": "The Grumpy Old Troll"
-  },
-  "http://www.stefanpoag.com": {
-    "xmlUrl": "https://stefanpoag.com/feed/",
-    "theme": "art, OSR publishing, DCC",
-    "author": "stefan poag",
-    "system": "?",
-    "title": "stefan poag"
   },
   "https://hmmmarquis.blogspot.com/": {
     "xmlUrl": "https://hmmmarquis.blogspot.com/feeds/posts/default?alt=rss",
@@ -1014,13 +986,6 @@
     "system": "OSR  & Retroclones",
     "title": "Sword+1"
   },
-  "https://jrients.blogspot.com/": {
-    "xmlUrl": "https://jrients.blogspot.com/feeds/posts/default?alt=rss",
-    "theme": "The original OSR blog",
-    "author": "Jeff Rients",
-    "system": "OSR, Basic D&D, etc",
-    "title": "Jeff's Gameblog"
-  },
   "https://joebanner.co.uk/": {
     "xmlUrl": "https://joebanner.co.uk/feed/",
     "theme": "Pre-built Adventures, Idle thoughts, advice, etc.",
@@ -1098,13 +1063,6 @@
     "system": "Janky OSR",
     "title": "To Distant Lands"
   },
-  "http://dreamsofmythicfantasy.blogspot.com": {
-    "xmlUrl": "http://dreamsofmythicfantasy.blogspot.com/feeds/posts/default?alt=rss",
-    "theme": "Playing Dungeons & Dragons During the Old School Renaissance",
-    "author": "James A. Smith",
-    "system": "AD&D 1e, S&W, OSR generally",
-    "title": "Dreams of Mythic Fantasy"
-  },
   "https://saturdaynightsandbox.blogspot.com/": {
     "xmlUrl": "https://saturdaynightsandbox.blogspot.com/feeds/posts/default?alt=rss",
     "theme": "",
@@ -1125,13 +1083,6 @@
     "author": "Vance Atkins",
     "system": "S&W, generic OSR",
     "title": "Leicester's Ramble"
-  },
-  "http://www.frothsofdnd.blogspot.com": {
-    "xmlUrl": "http://frothsofdnd.blogspot.com/feeds/posts/default?alt=rss",
-    "theme": "Reviews and homebrew",
-    "author": "Jeremy frothsof Smith",
-    "system": "D&D, Call of Cthulhu, various",
-    "title": "Thought Eater"
   },
   "https://arsmagisterii.blogspot.com/": {
     "xmlUrl": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss",
@@ -1427,20 +1378,6 @@
     "system": "DIY / something resembling BX or LotFP / \"what is tentatively called GROT\"",
     "title": "Die Uncast"
   },
-  "http://www.hdvrpg.tumblr.com": {
-    "xmlUrl": "https://hdvrpg.tumblr.com/rss",
-    "theme": "New but think of it as one big setting book",
-    "author": "Harry de Vries",
-    "system": "DIY DND",
-    "title": "HDVRPG"
-  },
-  "http://www.ggmlk.blogspot.com": {
-    "xmlUrl": "http://ggmlk.blogspot.com/feeds/posts/default?alt=rss",
-    "theme": "Useable snippets of rules/flavor/fiction",
-    "author": "Greg Gorgonmilk",
-    "system": "DND",
-    "title": "Gorgonmilk"
-  },
   "https://wanderinggamist.blogspot.com/": {
     "xmlUrl": "https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss",
     "theme": "Sandboxing, Warfare",
@@ -1672,13 +1609,6 @@
     "system": "",
     "title": "Swamp of Monsters!"
   },
-  "http://textgolem.blogspot.com": {
-    "xmlUrl": "http://textgolem.blogspot.com/feeds/posts/default?alt=rss",
-    "theme": "setting pieces and generators",
-    "author": "Ian Really",
-    "system": "generic, OSResque",
-    "title": "textgolem"
-  },
   "https://forgeduniverse.com/": {
     "xmlUrl": "https://forgeduniverse.com/f.rss",
     "theme": "Setting / world building, Fantasy & Fiction, Stock art, Storytelling",
@@ -1783,13 +1713,6 @@
     "author": "Redbeard",
     "system": "O5Rish,Into the Unknown",
     "title": "Redbeard's Ravings"
-  },
-  "http://url": {
-    "xmlUrl": "",
-    "theme": "Theme",
-    "author": "Blog Owner",
-    "system": "Home System",
-    "title": "Blog Name"
   },
   "https://1d30.wordpress.com/": {
     "xmlUrl": "https://1d30.wordpress.com/feed/",
@@ -2127,14 +2050,6 @@
     "system": "OSR",
     "theme": "Gonzo"
   },
-  "http://www.creativemountaingames.com": {
-    "url": "http://www.creativemountaingames.com",
-    "xmlUrl": "http://www.creativemountaingames.com/feeds/posts/default?alt=rss",
-    "title": "Creative Mountain Games",
-    "author": "Mark CMG Clover",
-    "system": "OSR",
-    "theme": "ePublisher of Old School Medieval Fantasy RPG Materials"
-  },
   "http://dragons.ie/blog/": {
     "url": "http://dragons.ie/blog/",
     "xmlUrl": "http://dragons.ie/feed/",
@@ -2199,14 +2114,6 @@
     "system": "GLOG, Freebooters, SWN someday",
     "theme": "converted miniatures and RPG tips/content"
   },
-  "http://slightadjustments.blogspot.com": {
-    "url": "http://slightadjustments.blogspot.com",
-    "xmlUrl": "https://slightadjustments.blogspot.com/feeds/posts/default?alt=rss",
-    "title": "Meandering Banter",
-    "author": "Spwack",
-    "system": "GLOG (Owlbear Edition)",
-    "theme": "Coding, GLOG, Casters other than wizards"
-  },
   "https://psionicblastfromthepast.blogspot.com/": {
     "url": "https://psionicblastfromthepast.blogspot.com/",
     "xmlUrl": "https://psionicblastfromthepast.blogspot.com/feeds/posts/default?alt=rss",
@@ -2238,14 +2145,6 @@
     "author": "signs",
     "system": "5e, GLOG hack, DCC",
     "theme": "OSR reflections, critique, game design theory, worldbuilding"
-  },
-  "http://strongholdpress.blogspot.com": {
-    "url": "http://strongholdpress.blogspot.com",
-    "xmlUrl": "http://strongholdpress.blogspot.com/feeds/posts/default?alt=rss",
-    "title": "Stronghold Press Games",
-    "author": "William Cord",
-    "system": "OSR, BECMI, White Box: FMAG",
-    "theme": "Ramblings, setting content, and occasional rules content."
   },
   "https://sevendeadlydungeons.blogspot.com/": {
     "url": "https://sevendeadlydungeons.blogspot.com/",
@@ -2342,14 +2241,6 @@
     "author": "eegag",
     "system": "OSE, 5E, Into the Odd, homebrew",
     "theme": "homebrew, house rules, play examples"
-  },
-  "http://eviltables.dev": {
-    "url": "http://eviltables.dev",
-    "xmlUrl": "https://eviltables.dev/feed/",
-    "title": "Evil Tables",
-    "author": "Evil Tables",
-    "system": "OSR",
-    "theme": "random tables and hexcrawls"
   },
   "https://www.prismaticwasteland.com/": {
     "url": "https://www.prismaticwasteland.com/",
@@ -2494,5 +2385,117 @@
     "author": "C.R. Alexander",
     "system": "OSR",
     "theme": "Reviews, OSR, Terrible Opinions"
+  },
+  "https://url": {
+    "url": "https://url",
+    "xmlUrl": "",
+    "title": "Blog Name",
+    "author": "Blog Owner",
+    "system": "Home System",
+    "theme": "Theme"
+  },
+  "https://www.creativemountaingames.com": {
+    "url": "https://www.creativemountaingames.com",
+    "xmlUrl": "",
+    "title": "Creative Mountain Games",
+    "author": "Mark CMG Clover",
+    "system": "OSR",
+    "theme": "ePublisher of Old School Medieval Fantasy RPG Materials"
+  },
+  "https://www.deepsheep.com": {
+    "url": "https://www.deepsheep.com",
+    "xmlUrl": "https://www.deepsheep.com/feeds/posts/default?alt=rss",
+    "title": "Deep Sheep",
+    "author": "Jonathan N.",
+    "system": "OSR",
+    "theme": "OSR thoughts"
+  },
+  "https://dreamsofmythicfantasy.blogspot.com": {
+    "url": "https://dreamsofmythicfantasy.blogspot.com",
+    "xmlUrl": "https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Dreams of Mythic Fantasy",
+    "author": "James A. Smith",
+    "system": "AD&D 1e, S&W, OSR generally",
+    "theme": "Playing Dungeons & Dragons During the Old School Renaissance"
+  },
+  "https://eviltables.dev": {
+    "url": "https://eviltables.dev",
+    "xmlUrl": "",
+    "title": "Evil Tables",
+    "author": "Evil Tables",
+    "system": "OSR",
+    "theme": "random tables and hexcrawls"
+  },
+  "https://www.ggmlk.blogspot.com": {
+    "url": "https://www.ggmlk.blogspot.com",
+    "xmlUrl": "",
+    "title": "Gorgonmilk",
+    "author": "Greg Gorgonmilk",
+    "system": "DND",
+    "theme": "Useable snippets of rules/flavor/fiction"
+  },
+  "https://www.hdvrpg.tumblr.com": {
+    "url": "https://www.hdvrpg.tumblr.com",
+    "xmlUrl": "",
+    "title": "HDVRPG",
+    "author": "Harry de Vries",
+    "system": "DIY DND",
+    "theme": "New but think of it as one big setting book"
+  },
+  "https://slightadjustments.blogspot.com": {
+    "url": "https://slightadjustments.blogspot.com",
+    "xmlUrl": "https://slightadjustments.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Meandering Banter",
+    "author": "Spwack",
+    "system": "GLOG (Owlbear Edition)",
+    "theme": "Coding, GLOG, Casters other than wizards"
+  },
+  "https://www.gwythaintny.wordpress.com": {
+    "url": "https://www.gwythaintny.wordpress.com",
+    "xmlUrl": "",
+    "title": "Northport",
+    "author": "Denis McCarthy",
+    "system": "SWCL, GURPS DF",
+    "theme": "art, reviews, conversions, play reports"
+  },
+  "https://www.stefanpoag.com": {
+    "url": "https://www.stefanpoag.com",
+    "xmlUrl": "https://stefanpoag.com/feed/",
+    "title": "stefan poag",
+    "author": "stefan poag",
+    "system": "?",
+    "theme": "art, OSR publishing, DCC"
+  },
+  "https://strongholdpress.blogspot.com": {
+    "url": "https://strongholdpress.blogspot.com",
+    "xmlUrl": "https://strongholdpress.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Stronghold Press Games",
+    "author": "William Cord",
+    "system": "OSR, BECMI, White Box: FMAG",
+    "theme": "Ramblings, setting content, and occasional rules content."
+  },
+  "https://textgolem.blogspot.com": {
+    "url": "https://textgolem.blogspot.com",
+    "xmlUrl": "https://textgolem.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "textgolem",
+    "author": "Ian Really",
+    "system": "generic, OSResque",
+    "theme": "setting pieces and generators"
+  },
+  "https://www.frothsofdnd.blogspot.com": {
+    "url": "https://www.frothsofdnd.blogspot.com",
+    "xmlUrl": "",
+    "title": "Thought Eater",
+    "author": "Jeremy frothsof Smith",
+    "system": "D&D, Call of Cthulhu, various",
+    "theme": "Reviews and homebrew"
+  },
+  "https://www.wrathofzombie.wordpress.com": {
+    "url": "https://www.wrathofzombie.wordpress.com",
+    "xmlUrl": "",
+    "title": "Wrathofzombie's Game Blog",
+    "author": "Mike Evans",
+    "system": "OSR/DIY D&D, DCC",
+    "theme": "Various rambling about games and published works"
   }
 }
