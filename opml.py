@@ -61,10 +61,13 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
     # Load the OSR blogs CSV file previously pulled from Google Docs
     with open('osr.csv') as csvfile:
-        # skip first line of the file, the header
-        next(csvfile, None)
+        csv_reader = csv.reader(csvfile)
 
-        for row in csv.reader(csvfile):
+        # skip first two lines of this file, they are the header.
+        next(csv_reader, None)
+        next(csv_reader, None)
+
+        for row in csv_reader:
             try:
                 # Each row is: URL, Blog Name, Blog Owner, Home System, Theme
                 url, title, author, system, theme = [col.strip() for col in row]
@@ -84,7 +87,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
             # Don't include blacklisted URLs. If you want to make your own
             # OSR OPML file full of freedom you can fork this code and go nuts!
-            if url in BLACKLIST:
+            if urlparse(url).netloc in BLACKLIST:
                 continue
 
             # We've already processed this URL
