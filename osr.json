@@ -1806,10 +1806,10 @@
     "title": "Owlbear Hugs"
   },
   "https://old-huron-archive.netlify.com": {
-    "xmlUrl": "https://old-huron-archive.netlify.com/index.xml",
+    "xmlUrl": "https://old-huron-archive.netlify.com/posts.xml",
     "theme": "",
     "author": "Viktor Haag",
-    "system": "Traveller, 5e, OSR, Delta green",
+    "system": "Traveller, OSR, Delta green",
     "title": "Old Huron Archive"
   },
   "https://backtothekeep.blogspot.com": {
