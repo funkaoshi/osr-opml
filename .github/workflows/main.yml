@@ -1,14 +1,29 @@
-on:
-  push:
-  schedule:
-    - cron:  '12 0 * * *'
+on: push
+env: 
+  KNOWN_HOST: ${{vars.KNOWN_HOST}}
+  SSH_USERNAME: ${{secrets.SSH_USERNAME}}
+  SSH_KEY: ${{secrets.SSH_KEY}}
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - run: curl -L "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
-      - run: pip install -r requirements.txt
-      - run: python opml.py -l
-      - run: scp osr.json ramanan@funkaoshi.com:save.vs.totalpartykill.ca/grab-bag/osr.json
-      - run: scp osr.opml ramanan@funkaoshi.com:save.vs.totalpartykill.ca/grab-bag/osr.opml
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pipenv'
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      - run: pipenv install 
+      - name: Fetch latest list of OSR blogs
+        run: curl -L "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
+      - run: pipenv run python opml.py
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: save.vs.totalpartykill.ca
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_KEY }}
+          source: "osr.json,osr.opml"
+          target: "~/save.vs.totalpartykill.ca/grab-bag/"
