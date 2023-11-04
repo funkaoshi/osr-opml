@@ -26,7 +26,7 @@ jobs:
       - name: Fetch latest list of OSR blogs
         run: curl -L "https://docs.google.com/spreadsheets/d/10qvE1s62UA55pleTW54RAZZw-oJQV8yYGZb_UtYo9TE/export?format=csv" -o osr.csv
       - name: Generate new OSR opml file.
-        run: pipenv run python opml.py
+        run: pipenv run python opml.py -l
       - name: Copy new osr.json and osr.opml files to save.vs.totalpartykill.ca
         uses: appleboy/scp-action@v0.1.4
         with:
