@@ -2029,14 +2029,6 @@
     "system": "OSR",
     "theme": "Gonzo"
   },
-  "http://dragons.ie/blog/": {
-    "url": "http://dragons.ie/blog/",
-    "xmlUrl": "http://dragons.ie/feed/",
-    "title": "Dragons.ie",
-    "author": "Eric Nieudan",
-    "system": "Macchiato Monsters, B/X",
-    "theme": "Rules, classes, development journal"
-  },
   "https://dungeonsofklang.blogspot.com/": {
     "url": "https://dungeonsofklang.blogspot.com/",
     "xmlUrl": "https://dungeonsofklang.blogspot.com/feeds/posts/default?alt=rss",
@@ -2620,5 +2612,53 @@
     "author": "Mike Evans",
     "system": "OSR/DIY D&D, DCC",
     "theme": "Various rambling about games and published works"
+  },
+  "https://macchiatomaster.blot.im/": {
+    "url": "https://macchiatomaster.blot.im/",
+    "xmlUrl": "https://macchiatomaster.blot.im/feed.rss",
+    "title": "Macchiato Master",
+    "author": "Eric Nieudan",
+    "system": "Macchiato Monsters, OSE, CY_BORG, other stuff I'm working on",
+    "theme": "Rules, classes, development journal - old blog at dragons.ie/blog"
+  },
+  "https://gamethedungeon.com/": {
+    "url": "https://gamethedungeon.com/",
+    "xmlUrl": "https://gamethedungeon.com/feed/",
+    "title": "Game the Dungeon",
+    "author": "Scott Parker (Sparker)",
+    "system": "OSR/5e",
+    "theme": "Downloadable tables, maps and games... OSR principles, monsters, characters and 5e translations."
+  },
+  "https://peoplethemwithmonsters.blogspot.com/": {
+    "url": "https://peoplethemwithmonsters.blogspot.com/",
+    "xmlUrl": "https://peoplethemwithmonsters.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "People Them with Monsters",
+    "author": "Jeremy Deram",
+    "system": "DCC RPG, HYPERBOREA",
+    "theme": "General OSR-related stuff"
+  },
+  "https://icastlight.blogspot.com/": {
+    "url": "https://icastlight.blogspot.com/",
+    "xmlUrl": "https://icastlight.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "I Cast Light",
+    "author": "WD",
+    "system": "B/X",
+    "theme": "Posts originating from my experiences running or playing B/X D&D"
+  },
+  "https://homicidallyinclinedpersonsofnofixedaddress.com/": {
+    "url": "https://homicidallyinclinedpersonsofnofixedaddress.com/",
+    "xmlUrl": "https://homicidallyinclinedpersonsofnofixedaddress.com/feed/",
+    "title": "Homicidally Inclined Persons of No Fixed Address",
+    "author": "Gabriel Rossman",
+    "system": "B/X, Shadowdark",
+    "theme": "Game mechanics, world-building informed by social science and biology"
+  },
+  "https://madgods.bearblog.dev/": {
+    "url": "https://madgods.bearblog.dev/",
+    "xmlUrl": "",
+    "title": "Playthings of Mad Gods",
+    "author": "J.N. Sinombre",
+    "system": "GLOG, other OSR",
+    "theme": "GLOG classes, various mechanics and settings"
   }
 }
