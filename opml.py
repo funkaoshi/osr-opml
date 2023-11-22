@@ -174,6 +174,7 @@ def generate_opml_file(osr_blogs):
         if not blog_meta_data["xmlUrl"]:
             continue
         blog_meta_data["htmlUrl"] = url
+        blog_meta_data["type"] = "rss"
         etree.SubElement(outline, "outline", **blog_meta_data)
 
     etree.ElementTree(opml).write("osr.opml", pretty_print=True)
