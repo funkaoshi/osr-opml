@@ -22,24 +22,26 @@ import collections
 import csv
 import json
 from lxml import etree
+import os
 import sys
 import urllib.request, urllib.parse, urllib.error
 from urllib.parse import urlparse, urljoin
 
 from bs4 import BeautifulSoup
 
-try:
-    from blacklist import BLACKLIST
-except ImportError:
-    BLACKLIST = []
 
-print(f"The blacklist is {BLACKLIST}")
+BLACKLIST = os.getenv("OPML_BLACKLIST", [])
+if BLACKLIST:
+    BLACKLIST = BLACKLIST.split(",")
+
 
 def load_blogs_cache():
-    """ Load our local OSR blogs cache """
-    with open('osr.json', 'r') as osr_json:
+    """Load our local OSR blogs cache"""
+    with open("osr.json", "r") as osr_json:
         try:
-            osr_blogs = json.loads(osr_json.read(), object_pairs_hook=collections.OrderedDict)
+            osr_blogs = json.loads(
+                osr_json.read(), object_pairs_hook=collections.OrderedDict
+            )
         except ValueError:
             osr_blogs = {}
 
@@ -60,7 +62,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
     new_blogs = []
 
     # Load the OSR blogs CSV file previously pulled from Google Docs
-    with open('osr.csv') as csvfile:
+    with open("osr.csv") as csvfile:
         csv_reader = csv.reader(csvfile)
 
         # skip first two lines of this file, they are the header.
@@ -80,8 +82,8 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
             # Clean up URLs
             url = url.lower()
-            if not url.startswith('http'):
-                url = 'https://' + url
+            if not url.startswith("http"):
+                url = "https://" + url
 
             downloaded_blogs.add(url)
 
@@ -96,12 +98,12 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
             # We have a new blog, add it to our cache
             blog = {
-                'url': url,
-                'xmlUrl': '',
-                'title': title,
-                'author': author,
-                'system': system,
-                'theme': theme
+                "url": url,
+                "xmlUrl": "",
+                "title": title,
+                "author": author,
+                "system": system,
+                "theme": theme,
             }
 
             new_blogs.append(blog)
@@ -109,7 +111,7 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
     print(f"{len(new_blogs)} new blogs:")
     for blog in new_blogs:
         print(f"- {blog['title']} by {blog['author']} ({blog['url']})")
-        osr_blogs[blog['url']] = blog
+        osr_blogs[blog["url"]] = blog
 
     removed_blogs = cached_blogs - downloaded_blogs
     print(f"{len(removed_blogs)} removed blogs:")
@@ -119,18 +121,20 @@ def update_osr_blogs_cache_from_csv(osr_blogs):
 
 
 def lookup_feed_urls(osr_blogs):
-    """ Lookup the feed URLs for all the blogs that missing them. """
+    """Lookup the feed URLs for all the blogs that missing them."""
     bad_blogs = []
 
     for url, blog_meta_data in list(osr_blogs.items()):
-        if blog_meta_data['xmlUrl']:
+        if blog_meta_data["xmlUrl"]:
             continue
 
         # Fetch the blogs home page
         try:
             data = urllib.request.urlopen(url)
             if data.getcode() != 200:
-                bad_blogs.append((url, "Error fetching feed: {}".format(data.getcode())))
+                bad_blogs.append(
+                    (url, "Error fetching feed: {}".format(data.getcode()))
+                )
                 continue
         except IOError as e:
             bad_blogs.append((url, "Error fetching feed: {}".format(e)))
@@ -139,21 +143,21 @@ def lookup_feed_urls(osr_blogs):
         # Parse the page and look for alternate link elements
         try:
             soup = BeautifulSoup(data, features="lxml")
-            alt = soup.find('link', rel="alternate", type="application/rss+xml")
+            alt = soup.find("link", rel="alternate", type="application/rss+xml")
         except ValueError as e:
             bad_blogs.append((url, "Failed to parse HTML: {}".format(e)))
             continue
 
         # The feed URL is stored in the href attribute
         if alt is not None:
-            xmlUrl = urljoin(url, alt['href'])
-            blog_meta_data['xmlUrl'] = xmlUrl
+            xmlUrl = urljoin(url, alt["href"])
+            blog_meta_data["xmlUrl"] = xmlUrl
         else:
             bad_blogs.append((url, "Failed to find feed tag."))
             continue
 
         # Update the file as we find new URLs
-        with open('osr.json', 'w') as osr_json:
+        with open("osr.json", "w") as osr_json:
             json.dump(osr_blogs, osr_json, indent=2)
 
     print(f"{len(bad_blogs)} blogs with errors:")
@@ -163,23 +167,26 @@ def lookup_feed_urls(osr_blogs):
 
 def generate_opml_file(osr_blogs):
     # Write an OPML file!
-    opml = etree.Element('opml', version="2.0")
-    body = etree.SubElement(opml, 'body')
-    outline = etree.SubElement(body, 'outline', title="OSR Blogs")
+    opml = etree.Element("opml", version="2.0")
+    body = etree.SubElement(opml, "body")
+    outline = etree.SubElement(body, "outline", title="OSR Blogs")
     for url, blog_meta_data in list(osr_blogs.items()):
-        if not blog_meta_data['xmlUrl']:
+        if not blog_meta_data["xmlUrl"]:
             continue
-        blog_meta_data['htmlUrl'] = url
-        etree.SubElement(outline, 'outline', **blog_meta_data)
+        blog_meta_data["htmlUrl"] = url
+        etree.SubElement(outline, "outline", **blog_meta_data)
 
-    etree.ElementTree(opml).write('osr.opml', pretty_print=True)
+    etree.ElementTree(opml).write("osr.opml", pretty_print=True)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '-l', '--lookup-feed-urls', dest='lookup', action='store_true',
-        help="Reach out to the Internet to find feed URLs"
+        "-l",
+        "--lookup-feed-urls",
+        dest="lookup",
+        action="store_true",
+        help="Reach out to the Internet to find feed URLs",
     )
     args = parser.parse_args(sys.argv[1:])
 

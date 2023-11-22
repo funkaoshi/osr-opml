@@ -9,6 +9,7 @@ env:
   KNOWN_HOST: ${{vars.KNOWN_HOST}}
   SSH_USERNAME: ${{secrets.SSH_USERNAME}}
   SSH_KEY: ${{secrets.SSH_KEY}}
+  OPML_BLACKLIST: ${{secrets.OPML_BLACKLIST}}
 jobs:
   build:
     runs-on: ubuntu-latest
