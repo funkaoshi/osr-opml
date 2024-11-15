@@ -2253,14 +2253,6 @@
     "system": "OSR",
     "theme": "Weird gonzo pre-apocalypse monsters and nonsense"
   },
-  "https://mindstorm.blot.im": {
-    "url": "https://mindstorm.blot.im",
-    "xmlUrl": "https://mindstorm.blot.im/feed.rss",
-    "title": "mindstorm",
-    "author": "eldritch mouse",
-    "system": "",
-    "theme": "rpgs, both indie and osr"
-  },
   "http://tomboftedankhamen.blogspot.com": {
     "url": "http://tomboftedankhamen.blogspot.com",
     "xmlUrl": "http://tomboftedankhamen.blogspot.com/feeds/posts/default?alt=rss",
@@ -2660,5 +2652,61 @@
     "author": "J.N. Sinombre",
     "system": "GLOG, other OSR",
     "theme": "GLOG classes, various mechanics and settings"
+  },
+  "https://thebonehoard.blogspot.com/": {
+    "url": "https://thebonehoard.blogspot.com/",
+    "xmlUrl": "https://thebonehoard.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "The Bonehoard",
+    "author": "Aster",
+    "system": "Homebrew",
+    "theme": "Sandbox homebrew - grim witchy citycrawl & strange wilderness hexcrawl"
+  },
+  "https://knightattheopera.blogspot.com/": {
+    "url": "https://knightattheopera.blogspot.com/",
+    "xmlUrl": "https://knightattheopera.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "A Knight at the Opera",
+    "author": "Dwiz",
+    "system": "OSR and 5e",
+    "theme": "Essays on design, some other variety stuff, focus on OSR and 5E"
+  },
+  "https://goldysmusings.bearblog.dev": {
+    "url": "https://goldysmusings.bearblog.dev",
+    "xmlUrl": "",
+    "title": "Goldy's Musings",
+    "author": "Goldy",
+    "system": "HMtW, ItO, SotWW",
+    "theme": "Worldbuilding and generally writing about games."
+  },
+  "https://mindstormpress.com": {
+    "url": "https://mindstormpress.com",
+    "xmlUrl": "https://www.mindstormpress.com/feed.rss",
+    "title": "mindstorm",
+    "author": "eldritch mouse",
+    "system": "",
+    "theme": "rpgs, both indie and osr"
+  },
+  "https://threewitchesrpg.blogspot.com": {
+    "url": "https://threewitchesrpg.blogspot.com",
+    "xmlUrl": "https://threewitchesrpg.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Three Witches",
+    "author": "Felipe Tuller",
+    "system": "",
+    "theme": "Game theory, game design, system agnostic stoleable content"
+  },
+  "https://weirdwonder.bearblog.dev/blog/": {
+    "url": "https://weirdwonder.bearblog.dev/blog/",
+    "xmlUrl": "",
+    "title": "Weird Wonder",
+    "author": "Amanda P",
+    "system": "",
+    "theme": ""
+  },
+  "https://www.explorersdesign.com/": {
+    "url": "https://www.explorersdesign.com/",
+    "xmlUrl": "https://www.explorersdesign.com/rss/",
+    "title": "Explorers Design",
+    "author": "Clayton Notestine",
+    "system": "Indie, OSR, NSR, Homebrew",
+    "theme": "Design of all kinds. Visual, verbal, and product design."
   }
 }
