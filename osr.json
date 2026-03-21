@@ -1416,7 +1416,7 @@
   "https://akraticwizardry.blogspot.com/": {
     "xmlUrl": "https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss",
     "theme": "campaign notes, news",
-    "author": "",
+    "author": "noreply@blogger.com (Akrasia)",
     "system": "",
     "title": "Akratic Wizardry"
   },
@@ -2708,5 +2708,13 @@
     "author": "Clayton Notestine",
     "system": "Indie, OSR, NSR, Homebrew",
     "theme": "Design of all kinds. Visual, verbal, and product design."
+  },
+  "https://hopefulweirdwonder.blogspot.com": {
+    "url": "https://hopefulweirdwonder.blogspot.com",
+    "xmlUrl": "https://hopefulweirdwonder.blogspot.com/feeds/posts/default?alt=rss",
+    "title": "Weird Wonder",
+    "author": "noreply@blogger.com (Hopeful Weird Wonder)",
+    "system": "",
+    "theme": ""
   }
 }

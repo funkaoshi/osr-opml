@@ -1,6 +1,6 @@
 <opml version="2.0">
   <body>
-    <outline title="OSR Blogs">
+    <outline title="Blogs">
       <outline xmlUrl="http://pitsperilous.blogspot.com/feeds/posts/default?alt=rss" theme="rules, articles" author="James George" system="Old House Rules" title="Pits Perilous" htmlUrl="http://pitsperilous.blogspot.com/" type="rss"/>
       <outline xmlUrl="https://buildingsarepeople.blogspot.com/feeds/posts/default?alt=rss" theme="Mechanics, folk tales" author="Michael Bacon" system="Village Folk, GLOG, Into the Odd, Knave" title="Buildings Are People" htmlUrl="https://buildingsarepeople.blogspot.com/" type="rss"/>
       <outline xmlUrl="https://reverancepavane.blogspot.com/feeds/posts/default?alt=rss" theme="Very very irregular postings of my homebrew rules and old guard stuff. [&quot;Viva la Emeror!&quot;]" author="Ian Borchardt" system="homebrew, many other stuff" title="And He Built a Crooked Dungeon" htmlUrl="https://reverancepavane.blogspot.com/" type="rss"/>
@@ -203,7 +203,7 @@
       <outline xmlUrl="http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss" theme="Maps,one page dungeon and OSR" author="Eneko Menica" system="Vieja Escuela, OSR" title="El tomo carmes&#237;" htmlUrl="http://eltomocarmesi.blogspot.com/" type="rss"/>
       <outline xmlUrl="https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss" theme="weird violent sadness" author="Evey Lockhart" system="DIY D&amp;D, LotFP, etc." title="Violent Media" htmlUrl="https://violentmediarpg.blogspot.com" type="rss"/>
       <outline xmlUrl="https://ablogfullofdemons.blogspot.com/feeds/posts/default?alt=rss" theme="Monsters. House rules. Demons. Spooky places." author="Mabel Harper" system="DIY LotFP" title="A Blog Full of Demons" htmlUrl="https://ablogfullofdemons.blogspot.com/" type="rss"/>
-      <outline xmlUrl="https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss" theme="campaign notes, news" author="" system="" title="Akratic Wizardry" htmlUrl="https://akraticwizardry.blogspot.com/" type="rss"/>
+      <outline xmlUrl="https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss" theme="campaign notes, news" author="noreply@blogger.com (Akrasia)" system="" title="Akratic Wizardry" htmlUrl="https://akraticwizardry.blogspot.com/" type="rss"/>
       <outline xmlUrl="http://animatekratocracy.blogspot.com/feeds/posts/default?alt=rss" theme="Stuff for my homebrew setting that can be easily stolen, cool summoning, the GLOG" author="Henry V" system="The GLOG" title="Animate Kratocracy" htmlUrl="http://animatekratocracy.blogspot.com/" type="rss"/>
       <outline xmlUrl="https://chthonic-halls.blogspot.com/feeds/posts/default?alt=rss" theme="Adventure Frameworks, Monsters, Sub-Systems" author="Nick S" system="DIY D&amp;D" title="Down in the Chthonic Deeps" htmlUrl="https://chthonic-halls.blogspot.com/" type="rss"/>
       <outline xmlUrl="http://www.dragonlessdungeons.com/feeds/posts/default?alt=rss" theme="So far just reviews. More reviews to come, and updates on my projects." author="S. Kelty" system="OSR/DIY, LotFP" title="Dragonless Dungeons" htmlUrl="http://www.dragonlessdungeons.com/" type="rss"/>
@@ -359,6 +359,7 @@
       <outline url="https://mindstormpress.com" xmlUrl="https://www.mindstormpress.com/feed.rss" title="mindstorm" author="eldritch mouse" system="" theme="rpgs, both indie and osr" htmlUrl="https://mindstormpress.com" type="rss"/>
       <outline url="https://threewitchesrpg.blogspot.com" xmlUrl="https://threewitchesrpg.blogspot.com/feeds/posts/default?alt=rss" title="Three Witches" author="Felipe Tuller" system="" theme="Game theory, game design, system agnostic stoleable content" htmlUrl="https://threewitchesrpg.blogspot.com" type="rss"/>
       <outline url="https://www.explorersdesign.com/" xmlUrl="https://www.explorersdesign.com/rss/" title="Explorers Design" author="Clayton Notestine" system="Indie, OSR, NSR, Homebrew" theme="Design of all kinds. Visual, verbal, and product design." htmlUrl="https://www.explorersdesign.com/" type="rss"/>
+      <outline url="https://hopefulweirdwonder.blogspot.com" xmlUrl="https://hopefulweirdwonder.blogspot.com/feeds/posts/default?alt=rss" title="Weird Wonder" author="noreply@blogger.com (Hopeful Weird Wonder)" system="" theme="" htmlUrl="https://hopefulweirdwonder.blogspot.com" type="rss"/>
     </outline>
   </body>
 </opml>
